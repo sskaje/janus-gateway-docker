@@ -1,4 +1,7 @@
-FROM debian:bullseye-slim
+FROM ubuntu:24.04
+
+RUN sed -E -i '~s#http://(archive|security).ubuntu.com/ubuntu/#http://192.168.50.40:8081/repository/ubuntu/#g; ~s#http://ports.ubuntu.com/ubuntu-ports/#http://192.168.50.40:8081/repository/ubuntu-ports/#g; ' /etc/apt/sources.list.d/ubuntu.sources
+
 
 RUN apt-get -y update && \
 	apt-get install -y \
@@ -19,6 +22,7 @@ RUN apt-get -y update && \
 		libwebsockets-dev \
 		libnanomsg-dev \
 		librabbitmq-dev \
+                libsrtp2-dev \
 		pkg-config \
 		gengetopt \
 		libtool \
@@ -26,38 +30,31 @@ RUN apt-get -y update && \
 		build-essential \
 		wget \
 		git \
-		gtk-doc-tools && \
+		gtk-doc-tools \
+                cmake \
+                meson && \
 	apt-get clean && \
 	rm -rf /var/lib/apt/lists/*
 
 
-RUN cd /tmp && \
-	wget https://github.com/cisco/libsrtp/archive/v2.3.0.tar.gz && \
-	tar xfv v2.3.0.tar.gz && \
-	cd libsrtp-2.3.0 && \
-	./configure --prefix=/usr --enable-openssl && \
-	make shared_library && \
-	make install
 
 RUN cd /tmp && \
 	git clone https://gitlab.freedesktop.org/libnice/libnice && \
 	cd libnice && \
-	git checkout 0.1.17 && \
-	./autogen.sh && \
-	./configure --prefix=/usr && \
-	make && \
-	make install
+	git checkout 0.1.22 && \
+        meson --prefix=/usr build && ninja -C build && ninja -C build install
 
-COPY . /usr/local/src/janus-gateway
 
-RUN cd /usr/local/src/janus-gateway && \
+RUN cd /tmp && \
+        git clone https://github.com/meetecho/janus-gateway.git && \
+        cd janus-gateway && \
 	sh autogen.sh && \
 	./configure --enable-post-processing --prefix=/usr/local && \
 	make && \
 	make install && \
 	make configs
 
-FROM debian:bullseye-slim
+FROM ubuntu:24.04
 
 ARG BUILD_DATE="undefined"
 ARG GIT_BRANCH="undefined"
@@ -69,6 +66,9 @@ LABEL git_branch=${GIT_BRANCH}
 LABEL git_commit=${GIT_COMMIT}
 LABEL version=${VERSION}
 
+RUN sed -E -i '~s#http://(archive|security).ubuntu.com/ubuntu/#http://192.168.50.40:8081/repository/ubuntu/#g; ~s#http://ports.ubuntu.com/ubuntu-ports/#http://192.168.50.40:8081/repository/ubuntu-ports/#g; ' /etc/apt/sources.list.d/ubuntu.sources
+
+
 RUN apt-get -y update && \
 	apt-get install -y \
 		libmicrohttpd12 \
@@ -76,7 +76,7 @@ RUN apt-get -y update && \
 		libavformat-dev \
 		libavcodec-dev \
 		libjansson4 \
-		libssl1.1 \
+		libssl3t64 \
 		libsofia-sip-ua0 \
 		libglib2.0-0 \
 		libopus0 \
@@ -84,20 +84,19 @@ RUN apt-get -y update && \
 		libcurl4 \
 		liblua5.3-0 \
 		libconfig9 \
-		libusrsctp1 \
-		libwebsockets16 \
+		libusrsctp2 \
+		libwebsockets19t64 \
 		libnanomsg5 \
+                libsrtp2-1 \
 		librabbitmq4 && \
 	apt-get clean && \
 	rm -rf /var/lib/apt/lists/*
 
-COPY --from=0 /usr/lib/libsrtp2.so.1 /usr/lib/libsrtp2.so.1
-RUN ln -s /usr/lib/libsrtp2.so.1 /usr/lib/libsrtp2.so
 
-COPY --from=0 /usr/lib/libnice.la /usr/lib/libnice.la
-COPY --from=0 /usr/lib/libnice.so.10.10.0 /usr/lib/libnice.so.10.10.0
-RUN ln -s /usr/lib/libnice.so.10.10.0 /usr/lib/libnice.so.10
-RUN ln -s /usr/lib/libnice.so.10.10.0 /usr/lib/libnice.so
+#COPY --from=0 /usr/lib/libnice.la /usr/lib/libnice.la
+COPY --from=0 /usr/lib/x86_64-linux-gnu/libnice.so.10.14.0 /usr/lib/x86_64-linux-gnu/libnice.so.10.14.0
+RUN ln -s /usr/lib/x86_64-linux-gnu/libnice.so.10.14.0 /usr/lib/libnice.so.10
+RUN ln -s /usr/lib/x86_64-linux-gnu/libnice.so.10.14.0 /usr/lib/libnice.so
 
 COPY --from=0 /usr/local/bin/janus /usr/local/bin/janus
 COPY --from=0 /usr/local/bin/janus-pp-rec /usr/local/bin/janus-pp-rec
