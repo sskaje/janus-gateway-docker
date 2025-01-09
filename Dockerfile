@@ -1,4 +1,4 @@
-FROM ubuntu:24.04
+FROM ubuntu:24.04 AS builder
 
 RUN sed -E -i '~s#http://(archive|security).ubuntu.com/ubuntu/#http://192.168.50.40:8081/repository/ubuntu/#g; ~s#http://ports.ubuntu.com/ubuntu-ports/#http://192.168.50.40:8081/repository/ubuntu-ports/#g; ' /etc/apt/sources.list.d/ubuntu.sources
 

@@ -1,0 +1,12 @@
+{
+    admin off
+}
+
+:10880
+
+root * ./html
+file_server
+
+handle_path /admin* {
+    reverse_proxy http://127.0.0.1:7088
+}
