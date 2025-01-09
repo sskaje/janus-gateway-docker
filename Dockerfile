@@ -54,6 +54,9 @@ RUN cd /tmp && \
 	make install && \
 	make configs
 
+RUN mkdir /tmp/copy && cp /usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/libnice.so.10.14.0 /tmp/copy/
+
+
 FROM ubuntu:24.04
 
 ARG BUILD_DATE="undefined"
@@ -93,10 +96,11 @@ RUN apt-get -y update && \
 	rm -rf /var/lib/apt/lists/*
 
 
-#COPY --from=0 /usr/lib/libnice.la /usr/lib/libnice.la
-COPY --from=0 /usr/lib/x86_64-linux-gnu/libnice.so.10.14.0 /usr/lib/x86_64-linux-gnu/libnice.so.10.14.0
-RUN ln -s /usr/lib/x86_64-linux-gnu/libnice.so.10.14.0 /usr/lib/libnice.so.10
-RUN ln -s /usr/lib/x86_64-linux-gnu/libnice.so.10.14.0 /usr/lib/libnice.so
+RUN mkdir /tmp/copy
+COPY --from=0 /tmp/copy/ /tmp/copy
+RUN cp /tmp/copy/libnice.so.10.14.0 /usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/libnice.so.10.14.0 && \
+	ln -s /usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/libnice.so.10.14.0 /usr/lib/libnice.so.10 && \
+	ln -s /usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/libnice.so.10.14.0 /usr/lib/libnice.so
 
 COPY --from=0 /usr/local/bin/janus /usr/local/bin/janus
 COPY --from=0 /usr/local/bin/janus-pp-rec /usr/local/bin/janus-pp-rec
