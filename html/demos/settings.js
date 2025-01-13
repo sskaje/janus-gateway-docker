@@ -57,6 +57,8 @@ if(window.location.protocol === 'http:')
 else
 	server = "https://" + window.location.hostname + ":8089/janus";
 
+server = '/janus';
+
 // When creating a Janus object, we can also specify which STUN/TURN
 // servers we'd like to use to gather additional candidates. This is
 // done by passing an "iceServers" property when creating the Janus

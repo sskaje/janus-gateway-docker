@@ -7,6 +7,10 @@
 root * ./html
 file_server
 
-handle_path /admin* {
+handle /admin* {
     reverse_proxy http://127.0.0.1:7088
+}
+
+handle /janus* {
+    reverse_proxy http://127.0.0.1:8088
 }
