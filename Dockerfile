@@ -4,57 +4,61 @@ RUN sed -E -i '~s#http://(archive|security).ubuntu.com/ubuntu/#http://192.168.50
 
 
 RUN apt-get -y update && \
-	apt-get install -y \
-		libavutil-dev \
-		libavformat-dev \
-		libavcodec-dev \
-		libmicrohttpd-dev \
-		libjansson-dev \
-		libssl-dev \
-		libsofia-sip-ua-dev \
-		libglib2.0-dev \
-		libopus-dev \
-		libogg-dev \
-		libcurl4-openssl-dev \
-		liblua5.3-dev \
-		libconfig-dev \
-		libusrsctp-dev \
-		libwebsockets-dev \
-		libnanomsg-dev \
-		librabbitmq-dev \
-                libsrtp2-dev \
-		pkg-config \
-		gengetopt \
-		libtool \
-		automake \
-		build-essential \
-		wget \
-		git \
-		gtk-doc-tools \
-                cmake \
-                meson && \
-	apt-get clean && \
-	rm -rf /var/lib/apt/lists/*
+    apt-get install -y \
+        libavutil-dev \
+        libavformat-dev \
+        libavcodec-dev \
+        libmicrohttpd-dev \
+        libjansson-dev \
+        libssl-dev \
+        libsofia-sip-ua-dev \
+        libglib2.0-dev \
+        libopus-dev \
+        libogg-dev \
+        libcurl4-openssl-dev \
+        liblua5.3-dev \
+        libconfig-dev \
+        libusrsctp-dev \
+        libwebsockets-dev \
+        libnanomsg-dev \
+        librabbitmq-dev \
+        libpaho-mqtt-dev \
+        libsrtp2-dev \
+        pkg-config \
+        gengetopt \
+        libtool \
+        automake \
+        build-essential \
+        wget \
+        git \
+        gtk-doc-tools \
+        doxygen \
+        graphviz \
+        cmake \
+        meson && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 
 
 
 RUN cd /tmp && \
-	git clone https://gitlab.freedesktop.org/libnice/libnice && \
-	cd libnice && \
-	git checkout 0.1.22 && \
+    git clone https://gitlab.freedesktop.org/libnice/libnice && \
+    cd libnice && \
+    git checkout 0.1.22 && \
         meson --prefix=/usr build && ninja -C build && ninja -C build install
 
-
 RUN cd /tmp && \
-        git clone https://github.com/meetecho/janus-gateway.git && \
-        cd janus-gateway && \
-	sh autogen.sh && \
-	./configure --enable-post-processing --prefix=/usr/local && \
-	make && \
-	make install && \
-	make configs
+    git clone https://github.com/meetecho/janus-gateway.git && \
+    cd janus-gateway && \
+    sed -i -e '~s#https://janus.conf.meetecho.com/#/#g' docs/header.html && \
+    sh autogen.sh && \
+    ./configure --enable-post-processing --prefix=/usr/local --enable-docs --enable-mqtt --enable-plugin-lua && \
+    make -j$(nproc) && \
+    make install && \
+    make configs
 
 RUN mkdir /tmp/copy && cp /usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/libnice.so.10.14.0 /tmp/copy/
+RUN cp -R $(find /usr/local/share/doc/janus-gateway/ -type d -name 'html')/* /usr/local/share/janus/html/docs/
 
 
 FROM ubuntu:24.04
@@ -73,34 +77,35 @@ RUN sed -E -i '~s#http://(archive|security).ubuntu.com/ubuntu/#http://192.168.50
 
 
 RUN apt-get -y update && \
-	apt-get install -y \
-		libmicrohttpd12 \
-		libavutil-dev \
-		libavformat-dev \
-		libavcodec-dev \
-		libjansson4 \
-		libssl3t64 \
-		libsofia-sip-ua0 \
-		libglib2.0-0 \
-		libopus0 \
-		libogg0 \
-		libcurl4 \
-		liblua5.3-0 \
-		libconfig9 \
-		libusrsctp2 \
-		libwebsockets19t64 \
-		libnanomsg5 \
-                libsrtp2-1 \
-		librabbitmq4 && \
-	apt-get clean && \
-	rm -rf /var/lib/apt/lists/*
+    apt-get install -y \
+        libmicrohttpd12 \
+        libavutil-dev \
+        libavformat-dev \
+        libavcodec-dev \
+        libjansson4 \
+        libssl3t64 \
+        libsofia-sip-ua0 \
+        libpaho-mqtt1.3 \
+        libglib2.0-0 \
+        libopus0 \
+        libogg0 \
+        libcurl4 \
+        liblua5.3-0 \
+        libconfig9 \
+        libusrsctp2 \
+        libwebsockets19t64 \
+        libnanomsg5 \
+        libsrtp2-1 \
+        librabbitmq4 && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 
 
 RUN mkdir /tmp/copy
 COPY --from=0 /tmp/copy/ /tmp/copy
 RUN cp /tmp/copy/libnice.so.10.14.0 /usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/libnice.so.10.14.0 && \
-	ln -s /usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/libnice.so.10.14.0 /usr/lib/libnice.so.10 && \
-	ln -s /usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/libnice.so.10.14.0 /usr/lib/libnice.so
+    ln -s /usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/libnice.so.10.14.0 /usr/lib/libnice.so.10 && \
+    ln -s /usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/libnice.so.10.14.0 /usr/lib/libnice.so
 
 COPY --from=0 /usr/local/bin/janus /usr/local/bin/janus
 COPY --from=0 /usr/local/bin/janus-pp-rec /usr/local/bin/janus-pp-rec
