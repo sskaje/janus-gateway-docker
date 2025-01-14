@@ -1,0 +1,10 @@
+<map id="janus_http_request_timeout" name="janus_http_request_timeout">
+<area shape="rect" id="Node000001" title=" " alt="" coords="115,181,261,221"/>
+<area shape="rect" id="Node000002" href="$structjanus__transport__session.html" title="Transport&#45;Gateway session mapping." alt="" coords="5,93,184,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,126,171,179,167,183,114,130"/>
+<area shape="rect" id="Node000003" href="$structjanus__refcount.html" title=" " alt="" coords="129,5,247,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="167,42,109,95,106,91,163,38"/>
+<area shape="rect" id="Node000004" href="$structjanus__http__session.html" title=" " alt="" coords="208,93,355,119"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="213,38,270,91,267,95,209,42"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="262,130,209,183,205,179,258,126"/>
+</map>

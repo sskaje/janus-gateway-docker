@@ -1,0 +1,47 @@
+<map id="rtpsrtp.h" name="rtpsrtp.h">
+<area shape="rect" id="Node000001" title="SRTP definitions (headers)" alt="" coords="729,5,806,31"/>
+<area shape="rect" id="Node000002" href="$dtls_8h.html" title="DTLS/SRTP processing (headers)" alt="" coords="217,79,275,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="715,29,276,89,275,83,714,24"/>
+<area shape="rect" id="Node000006" href="$ice_8c.html" title="Janus handles and ICE/STUN/TURN processing." alt="" coords="375,372,427,397"/>
+<area shape="poly" id="edge16_Node000001_Node000006" title=" " alt="" coords="715,25,642,35,603,45,565,59,531,77,504,100,486,128,479,164,479,240,472,281,455,319,433,351,414,373,410,370,429,347,450,316,467,279,474,239,474,163,481,126,500,96,528,72,563,54,602,40,641,30,714,20"/>
+<area shape="rect" id="Node000011" href="$janus__audiobridge_8c.html" title="Janus AudioBridge plugin." alt="" coords="514,152,666,177"/>
+<area shape="poly" id="edge17_Node000001_Node000011" title=" " alt="" coords="719,38,681,56,645,81,615,118,597,153,593,150,611,115,642,77,678,51,717,33"/>
+<area shape="rect" id="Node000012" href="$janus__nosip_8c.html" title="Janus NoSIP plugin." alt="" coords="805,79,916,104"/>
+<area shape="poly" id="edge18_Node000001_Node000012" title=" " alt="" coords="795,37,847,76,844,81,791,41"/>
+<area shape="rect" id="Node000013" href="$janus__sip_8c.html" title="Janus SIP plugin." alt="" coords="940,79,1035,104"/>
+<area shape="poly" id="edge19_Node000001_Node000013" title=" " alt="" coords="817,32,953,76,951,81,815,37"/>
+<area shape="rect" id="Node000014" href="$janus__streaming_8c.html" title="Janus Streaming plugin." alt="" coords="1059,79,1201,104"/>
+<area shape="poly" id="edge20_Node000001_Node000014" title=" " alt="" coords="820,27,1072,76,1071,81,819,32"/>
+<area shape="rect" id="Node000015" href="$janus__videoroom_8c.html" title="Janus VideoRoom plugin." alt="" coords="840,152,985,177"/>
+<area shape="poly" id="edge21_Node000001_Node000015" title=" " alt="" coords="773,44,780,74,796,102,813,118,832,131,873,150,871,154,830,136,809,122,792,106,775,76,767,45"/>
+<area shape="rect" id="Node000016" href="$rtp_8c.html" title="RTP processing." alt="" coords="1225,79,1275,104"/>
+<area shape="poly" id="edge22_Node000001_Node000016" title=" " alt="" coords="820,21,996,40,1104,56,1213,76,1225,79,1224,84,1212,81,1104,61,995,45,820,26"/>
+<area shape="rect" id="Node000017" href="$rtpfwd_8h.html" title="RTP forwarders (headers)" alt="" coords="655,79,730,104"/>
+<area shape="poly" id="edge23_Node000001_Node000017" title=" " alt="" coords="747,42,707,80,703,77,744,38"/>
+<area shape="rect" id="Node000003" href="$dtls_8c.html" title="DTLS/SRTP processing." alt="" coords="5,372,63,397"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="219,114,173,154,128,214,89,278,41,373,37,371,84,275,123,211,169,150,215,110"/>
+<area shape="rect" id="Node000004" href="$ice_8h.html" title="Janus handles and ICE/STUN/TURN processing (headers)" alt="" coords="219,225,273,251"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="252,117,255,152,254,192,251,225,245,225,249,192,250,152,247,118"/>
+<area shape="rect" id="Node000010" href="$sdp_8h.html" title="SDP processing (headers)" alt="" coords="184,152,241,177"/>
+<area shape="poly" id="edge12_Node000002_Node000010" title=" " alt="" coords="237,118,220,153,216,151,232,115"/>
+<area shape="rect" id="Node000005" href="$dtls-bio_8c.html" title=" " alt="" coords="255,299,338,324"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="265,261,291,297,286,300,260,264"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="287,253,320,272,352,297,381,335,398,370,394,373,376,338,348,301,317,276,284,258"/>
+<area shape="rect" id="Node000007" href="$janus_8h.html" title="Janus core (headers)" alt="" coords="162,299,231,324"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="232,264,207,300,202,297,228,261"/>
+<area shape="rect" id="Node000009" href="$sdp_8c.html" title="SDP processing." alt="" coords="97,372,153,397"/>
+<area shape="poly" id="edge11_Node000004_Node000009" title=" " alt="" coords="208,258,178,276,152,300,142,318,135,338,128,372,123,371,130,336,137,316,148,297,175,271,205,253"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="159,332,62,374,60,369,157,327"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="243,326,375,372,374,377,242,331"/>
+<area shape="rect" id="Node000008" href="$janus_8c.html" title="Janus core." alt="" coords="572,372,640,397"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="245,322,433,355,572,376,571,381,433,360,244,327"/>
+<area shape="poly" id="edge10_Node000007_Node000009" title=" " alt="" coords="177,336,138,374,134,370,173,332"/>
+<area shape="poly" id="edge14_Node000010_Node000004" title=" " alt="" coords="226,189,243,224,238,226,222,191"/>
+<area shape="poly" id="edge13_Node000010_Node000006" title=" " alt="" coords="248,182,317,228,352,260,382,297,397,336,403,371,397,372,392,338,377,300,348,264,313,232,245,186"/>
+<area shape="poly" id="edge15_Node000010_Node000009" title=" " alt="" coords="197,189,163,238,147,268,134,299,127,338,127,372,121,371,122,338,129,298,142,266,159,235,192,186"/>
+<area shape="poly" id="edge24_Node000017_Node000008" title=" " alt="" coords="692,118,681,178,644,292,613,373,608,371,639,291,675,177,687,117"/>
+<area shape="poly" id="edge25_Node000017_Node000011" title=" " alt="" coords="666,114,608,154,605,150,663,110"/>
+<area shape="poly" id="edge26_Node000017_Node000015" title=" " alt="" coords="742,106,878,149,876,154,740,111"/>
+<area shape="rect" id="Node000018" href="$rtpfwd_8c.html" title="RTP forwarders." alt="" coords="741,152,815,177"/>
+<area shape="poly" id="edge27_Node000017_Node000018" title=" " alt="" coords="718,110,766,150,762,154,715,115"/>
+</map>

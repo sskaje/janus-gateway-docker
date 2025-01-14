@@ -1,0 +1,11 @@
+<map id="janus_streaming_session" name="janus_streaming_session">
+<area shape="rect" id="Node000001" title=" " alt="" coords="32,181,218,207"/>
+<area shape="rect" id="Node000002" href="$structjanus__plugin__session.html" title="Plugin&#45;Gateway session mapping." alt="" coords="45,93,205,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,133,128,181,122,181,122,133"/>
+<area shape="rect" id="Node000003" href="$structjanus__refcount.html" title=" " alt="" coords="66,5,184,31"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="80,38,50,53,24,72,9,94,8,105,13,117,28,138,48,155,92,179,90,184,45,160,24,142,8,120,3,106,4,92,20,68,47,49,77,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="128,45,128,93,122,93,122,45"/>
+<area shape="rect" id="Node000004" href="$structjanus__streaming__mountpoint.html" title=" " alt="" coords="230,93,442,119"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="167,34,308,91,306,96,165,38"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="295,126,154,184,152,179,293,122"/>
+</map>

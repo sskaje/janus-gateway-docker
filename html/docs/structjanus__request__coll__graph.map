@@ -1,0 +1,10 @@
+<map id="janus_request" name="janus_request">
+<area shape="rect" id="Node000001" title="Helper to address requests and their sources (e.g., a specific HTTP connection, websocket,..." alt="" coords="119,181,233,207"/>
+<area shape="rect" id="Node000002" href="$structjanus__transport.html" title="The transport plugin session and callbacks interface." alt="" coords="5,93,128,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,130,95,155,114,169,136,179,133,184,112,174,91,159,73,133"/>
+<area shape="rect" id="Node000003" href="$structjanus__transport__session.html" title="Transport&#45;Gateway session mapping." alt="" coords="223,93,401,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="284,128,196,183,193,179,281,124"/>
+<area shape="rect" id="Node000004" href="$structjanus__refcount.html" title=" " alt="" coords="138,5,257,31"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="197,44,191,94,180,181,175,181,185,93,192,44"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="225,37,298,91,295,95,222,41"/>
+</map>

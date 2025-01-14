@@ -1,0 +1,63 @@
+<map id="janus_nanomsg.c" name="janus_nanomsg.c">
+<area shape="rect" id="Node000001" title="Janus Nanomsg transport plugin." alt="" coords="1097,5,1231,31"/>
+<area shape="rect" id="Node000002" href="$transport_8h.html" title="Modular Janus API transports." alt="" coords="556,79,649,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1097,31,663,85,663,80,1096,25"/>
+<area shape="rect" id="Node000013" href="$mutex_8h.html" title="Semaphores, Mutexes and Conditions." alt="" coords="258,225,334,251"/>
+<area shape="poly" id="edge31_Node000001_Node000013" title=" " alt="" coords="1097,23,868,27,568,36,293,54,194,66,138,81,107,101,83,123,76,136,74,148,76,162,83,176,108,193,150,207,245,227,244,232,148,212,106,198,79,179,71,163,68,148,71,134,79,120,104,96,136,76,193,61,292,48,568,31,868,21,1097,17"/>
+<area shape="rect" id="Node000016" href="$debug_8h.html" title="Logging and Debugging." alt="" coords="564,299,639,324"/>
+<area shape="poly" id="edge27_Node000001_Node000016" title=" " alt="" coords="1150,33,943,180,865,217,786,250,653,297,651,292,784,245,863,212,940,175,1147,29"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="1107,79,1221,104"/>
+<area shape="poly" id="edge22_Node000001_Node000019" title=" " alt="" coords="1167,31,1167,65,1161,65,1161,31"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="1245,79,1368,104"/>
+<area shape="poly" id="edge23_Node000001_Node000020" title=" " alt="" coords="1188,28,1272,70,1270,75,1186,33"/>
+<area shape="rect" id="Node000021" title=" " alt="" coords="1392,79,1531,104"/>
+<area shape="poly" id="edge24_Node000001_Node000021" title=" " alt="" coords="1212,28,1401,73,1399,78,1211,33"/>
+<area shape="rect" id="Node000022" title=" " alt="" coords="1555,79,1672,104"/>
+<area shape="poly" id="edge25_Node000001_Node000022" title=" " alt="" coords="1232,27,1541,76,1540,81,1231,32"/>
+<area shape="rect" id="Node000023" title=" " alt="" coords="1697,79,1847,104"/>
+<area shape="poly" id="edge26_Node000001_Node000023" title=" " alt="" coords="1232,24,1684,76,1683,81,1231,29"/>
+<area shape="rect" id="Node000024" href="$apierror_8h.html" title="Janus API errors definition." alt="" coords="1872,79,1968,104"/>
+<area shape="poly" id="edge28_Node000001_Node000024" title=" " alt="" coords="1232,20,1502,39,1677,55,1858,76,1858,81,1677,60,1501,44,1231,25"/>
+<area shape="rect" id="Node000025" href="$config_8h.html" title="Configuration files parsing (headers)" alt="" coords="1056,225,1141,251"/>
+<area shape="poly" id="edge29_Node000001_Node000025" title=" " alt="" coords="1144,33,1118,52,1097,80,1087,114,1085,149,1094,212,1089,212,1080,150,1082,113,1092,77,1114,49,1141,29"/>
+<area shape="rect" id="Node000026" href="$utils_8h.html" title="TURN REST API client." alt="" coords="149,79,224,104"/>
+<area shape="poly" id="edge32_Node000001_Node000026" title=" " alt="" coords="1097,27,238,89,237,84,1096,22"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="670,152,741,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="621,102,679,142,676,146,618,106"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="202,152,273,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="556,103,287,155,286,149,555,98"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="683,445,749,471"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="650,92,724,98,811,109,890,125,921,137,943,150,960,169,968,189,971,237,971,313,965,346,948,374,924,397,894,415,826,440,763,454,762,449,825,435,892,410,921,392,944,370,960,344,965,312,965,237,963,190,956,172,940,154,919,141,889,131,810,114,724,103,649,98"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="765,152,835,177"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="635,102,756,145,754,150,633,107"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="859,152,930,177"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="650,101,846,149,845,154,649,107"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="460,152,535,177"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="587,106,527,147,524,142,584,102"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="559,152,646,177"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="605,104,605,138,600,138,600,104"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="521,445,580,471"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="557,102,501,119,473,134,450,154,435,173,428,191,425,237,425,313,429,358,436,375,450,396,478,421,510,439,507,443,475,425,446,399,431,378,424,359,420,313,420,237,423,190,430,171,446,150,470,130,499,115,555,97"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="94,152,178,177"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="556,101,398,122,192,154,191,149,398,117,555,96"/>
+<area shape="rect" id="Node000012" href="$refcount_8h.html" title="Reference counter mechanism." alt="" coords="297,152,385,177"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="561,107,398,151,396,146,560,101"/>
+<area shape="poly" id="edge12_Node000012_Node000010" title=" " alt="" coords="346,177,367,290,385,354,395,379,406,396,428,415,454,430,508,447,507,452,452,435,425,419,402,399,391,381,380,355,362,291,340,178"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="336,179,313,215,308,212,332,176"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="157,299,241,324"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="282,253,227,292,224,288,279,249"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="265,299,333,324"/>
+<area shape="poly" id="edge15_Node000013_Node000015" title=" " alt="" coords="299,251,300,285,295,285,294,251"/>
+<area shape="poly" id="edge16_Node000013_Node000016" title=" " alt="" coords="335,246,551,296,550,301,333,251"/>
+<area shape="poly" id="edge17_Node000016_Node000010" title=" " alt="" coords="601,325,579,398,564,434,559,432,573,396,596,324"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="460,372,564,397"/>
+<area shape="poly" id="edge18_Node000016_Node000017" title=" " alt="" coords="589,326,539,365,536,361,585,322"/>
+<area shape="rect" id="Node000018" href="$log_8h.html" title="Buffered logging (headers)" alt="" coords="639,372,694,397"/>
+<area shape="poly" id="edge19_Node000016_Node000018" title=" " alt="" coords="614,323,649,360,645,364,610,326"/>
+<area shape="poly" id="edge20_Node000018_Node000005" title=" " alt="" coords="677,396,702,433,698,436,673,399"/>
+<area shape="poly" id="edge21_Node000018_Node000010" title=" " alt="" coords="649,400,583,440,580,436,647,395"/>
+<area shape="poly" id="edge30_Node000025_Node000010" title=" " alt="" coords="1072,253,706,400,594,443,592,438,704,395,1070,248"/>
+<area shape="poly" id="edge33_Node000026_Node000004" title=" " alt="" coords="197,103,223,139,219,142,193,106"/>
+<area shape="poly" id="edge34_Node000026_Node000010" title=" " alt="" coords="150,106,105,124,59,152,39,169,23,189,12,212,8,237,8,312,12,330,24,346,42,361,67,375,131,399,209,417,292,431,375,441,508,452,507,457,374,446,292,436,208,422,129,404,65,380,39,366,20,350,7,332,3,313,3,236,7,210,18,186,35,166,56,148,103,120,148,101"/>
+<area shape="poly" id="edge35_Node000026_Node000011" title=" " alt="" coords="180,106,154,142,150,139,176,103"/>
+</map>

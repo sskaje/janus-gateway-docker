@@ -1,0 +1,23 @@
+<map id="janus_echotest_session" name="janus_echotest_session">
+<area shape="rect" id="Node000001" title=" " alt="" coords="617,179,793,205"/>
+<area shape="rect" id="Node000002" href="$structjanus__plugin__session.html" title="Plugin&#45;Gateway session mapping." alt="" coords="318,66,478,91"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="492,82,544,92,594,108,624,124,651,142,693,177,689,181,648,146,621,128,592,113,542,97,491,88"/>
+<area shape="rect" id="Node000003" href="$structjanus__refcount.html" title=" " alt="" coords="33,45,151,70"/>
+<area shape="poly" id="edge12_Node000001_Node000003" title=" " alt="" coords="156,39,246,24,359,16,419,18,480,27,539,42,595,66,630,91,660,122,699,178,695,181,656,125,627,95,592,70,537,47,479,32,419,24,359,21,247,29,157,44"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="165,60,318,70,317,76,165,65"/>
+<area shape="rect" id="Node000009" href="$structjanus__recorder.html" title="Structure that represents a recorder." alt="" coords="339,127,457,153"/>
+<area shape="poly" id="edge11_Node000009_Node000003" title=" " alt="" coords="148,72,203,88,344,125,343,130,202,93,146,77"/>
+<area shape="rect" id="Node000004" href="$structjanus__rtp__switching__context.html" title="RTP context, in order to make sure SSRC changes result in coherent seq/ts increases." alt="" coords="17,151,167,191"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="182,171,312,176,617,186,617,192,312,181,181,177"/>
+<area shape="poly" id="edge10_Node000009_Node000004" title=" " alt="" coords="181,159,338,143,339,149,181,164"/>
+<area shape="rect" id="Node000005" href="$structjanus__rtp__simulcasting__context.html" title="Helper struct for processing and tracking simulcast streams." alt="" coords="312,240,484,280"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="497,242,593,223,665,202,667,207,594,228,498,247"/>
+<area shape="rect" id="Node000006" href="$structjanus__av1__svc__context.html" title="Helper struct for processing and tracking AV1&#45;SVC streams." alt="" coords="5,275,179,301"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="192,276,311,265,312,270,193,282"/>
+<area shape="rect" id="Node000008" href="$structjanus__rtp__svc__context.html" title="Helper struct for processing and tracking VP9&#45;SVC streams." alt="" coords="315,305,481,330"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="193,295,315,307,314,312,192,300"/>
+<area shape="rect" id="Node000007" href="$structjanus__vp8__simulcast__context.html" title="VP8 simulcasting context, in order to make sure SSRC changes result in coherent picid/temporal level ..." alt="" coords="319,355,477,395"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="490,354,542,336,592,311,625,285,654,256,693,203,698,207,658,259,628,289,595,316,544,341,492,359"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="478,299,535,283,592,262,645,232,687,202,690,207,648,236,594,266,536,288,479,304"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="471,150,630,177,629,182,471,155"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="janus_duktape_extra.h" name="janus_duktape_extra.h">
+<area shape="rect" id="Node000001" title="Janus Duktape plugin extra hooks (headers)" alt="" coords="71,5,241,31"/>
+<area shape="rect" id="Node000002" href="$janus__duktape_8c.html" title="Janus JavaScript plugin (via Duktape)" alt="" coords="5,79,133,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,41,85,81,82,76,130,37"/>
+<area shape="rect" id="Node000003" href="$janus__duktape__extra_8c.html" title="Janus Duktape plugin extra hooks." alt="" coords="158,79,327,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,37,230,76,227,81,179,41"/>
+</map>

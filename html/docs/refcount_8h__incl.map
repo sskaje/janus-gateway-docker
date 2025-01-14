@@ -1,0 +1,21 @@
+<map id="refcount.h" name="refcount.h">
+<area shape="rect" id="Node000001" title="Reference counter mechanism." alt="" coords="5,5,93,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="115,299,173,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="48,32,39,58,32,95,30,136,37,176,53,210,75,240,121,288,117,292,71,244,49,213,32,178,24,136,27,94,34,57,42,30"/>
+<area shape="rect" id="Node000003" href="$mutex_8h.html" title="Semaphores, Mutexes and Conditions." alt="" coords="101,79,177,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="65,29,115,68,112,72,62,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="47,152,131,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="133,106,107,142,103,139,128,103"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="155,152,223,177"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="149,103,175,139,171,142,145,106"/>
+<area shape="rect" id="Node000006" href="$debug_8h.html" title="Logging and Debugging." alt="" coords="248,152,323,177"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="163,102,250,144,248,148,161,106"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="249,179,208,198,188,211,171,227,156,255,149,285,144,284,151,253,167,224,185,207,205,193,247,174"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="181,225,285,251"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="279,179,252,216,248,213,275,176"/>
+<area shape="rect" id="Node000008" href="$log_8h.html" title="Buffered logging (headers)" alt="" coords="310,225,365,251"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="296,176,323,213,319,216,292,179"/>
+<area shape="poly" id="edge10_Node000008_Node000002" title=" " alt="" coords="311,252,187,297,186,292,309,247"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="304,299,371,324"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="340,251,340,285,335,285,335,251"/>
+</map>

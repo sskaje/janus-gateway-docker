@@ -1,0 +1,40 @@
+<map id="pp&#45;h264.c" name="pp&#45;h264.c">
+<area shape="rect" id="Node000001" title="Post&#45;processing to generate .mp4 files out of H.264 frames." alt="" coords="403,5,489,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,97,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="403,30,112,82,111,77,402,24"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="149,225,228,251"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="403,26,343,38,274,60,241,77,210,97,183,123,163,153,159,168,161,183,174,213,169,215,156,185,154,167,158,151,179,119,207,93,238,72,272,55,342,32,402,21"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="576,79,663,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="475,28,579,71,577,76,473,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="687,79,757,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="490,28,674,75,673,80,489,33"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="781,79,852,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="490,24,768,76,767,81,489,29"/>
+<area shape="rect" id="Node000007" href="$pp-avformat_8h.html" title=" " alt="" coords="437,79,551,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="456,30,481,66,476,69,452,33"/>
+<area shape="rect" id="Node000008" href="$debug_8h.html" title="Logging and Debugging." alt="" coords="431,152,517,177"/>
+<area shape="poly" id="edge21_Node000001_Node000008" title=" " alt="" coords="441,32,427,65,424,84,427,103,438,123,453,141,448,144,434,126,422,105,419,84,422,63,436,30"/>
+<area shape="rect" id="Node000015" href="$pp-h264_8h.html" title="Post&#45;processing to generate .mp4 files out of H.264 frames (headers)" alt="" coords="275,79,361,104"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="427,33,352,74,350,69,424,28"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="493,105,483,140,478,138,488,104"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="741,152,903,177"/>
+<area shape="poly" id="edge13_Node000007_Node000013" title=" " alt="" coords="547,101,756,146,755,152,546,107"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="541,152,716,177"/>
+<area shape="poly" id="edge14_Node000007_Node000014" title=" " alt="" coords="517,102,596,143,593,148,514,106"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="393,299,451,324"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="472,179,433,287,428,285,467,177"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="561,225,665,251"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="497,175,579,217,577,221,495,180"/>
+<area shape="rect" id="Node000011" href="$log_8h.html" title="Buffered logging (headers)" alt="" coords="481,225,536,251"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="482,176,499,212,495,214,477,179"/>
+<area shape="poly" id="edge12_Node000011_Node000009" title=" " alt="" coords="496,253,448,292,445,288,493,249"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="475,299,542,324"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="511,251,511,285,506,285,506,251"/>
+<area shape="poly" id="edge16_Node000015_Node000012" title=" " alt="" coords="330,103,491,286,487,290,326,106"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="173,152,257,177"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="303,106,245,146,242,142,300,102"/>
+<area shape="rect" id="Node000017" href="$pp-rtp_8h.html" title="Helper structures to handle RTP post&#45;processing (headers)" alt="" coords="281,152,355,177"/>
+<area shape="poly" id="edge18_Node000015_Node000017" title=" " alt="" coords="321,104,321,138,315,138,315,104"/>
+<area shape="poly" id="edge19_Node000017_Node000003" title=" " alt="" coords="298,180,223,221,221,216,296,175"/>
+<area shape="poly" id="edge20_Node000017_Node000009" title=" " alt="" coords="327,176,376,249,406,286,401,290,372,252,323,179"/>
+</map>

@@ -1,0 +1,29 @@
+<map id="janus_sip_call" name="janus_sip_call">
+<area shape="rect" id="Node000001" title=" " alt="" coords="793,149,907,174"/>
+<area shape="rect" id="Node000002" href="$structjanus__sip__session.html" title=" " alt="" coords="553,194,692,219"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="700,189,793,170,794,175,701,194"/>
+<area shape="poly" id="edge14_Node000002_Node000002" title=" " alt="" coords="599,179,606,171,623,167,637,170,646,176,648,186,644,195,639,193,642,185,641,179,635,175,623,173,609,175,603,183"/>
+<area shape="rect" id="Node000005" href="$structssip__s.html" title=" " alt="" coords="819,218,881,243"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="706,213,819,225,818,230,705,218"/>
+<area shape="rect" id="Node000003" href="$structjanus__plugin__session.html" title="Plugin&#45;Gateway session mapping." alt="" coords="265,57,425,82"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="439,75,486,87,531,106,558,125,582,149,615,192,611,195,578,153,555,130,528,110,484,92,438,80"/>
+<area shape="rect" id="Node000004" href="$structjanus__refcount.html" title=" " alt="" coords="21,78,140,103"/>
+<area shape="poly" id="edge15_Node000002_Node000004" title=" " alt="" coords="122,70,204,42,255,29,310,20,367,16,425,20,480,34,531,59,565,90,590,128,609,164,620,193,615,195,604,166,586,130,561,94,528,64,478,39,424,25,367,22,311,25,256,35,205,47,124,75"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="153,82,265,73,265,78,154,88"/>
+<area shape="rect" id="Node000009" href="$structjanus__sdp.html" title="Janus SDP internal object representation." alt="" coords="302,106,389,131"/>
+<area shape="poly" id="edge10_Node000009_Node000004" title=" " alt="" coords="154,97,180,100,302,112,302,117,180,105,153,102"/>
+<area shape="rect" id="Node000010" href="$structjanus__recorder.html" title="Structure that represents a recorder." alt="" coords="286,190,405,215"/>
+<area shape="poly" id="edge13_Node000010_Node000004" title=" " alt="" coords="125,106,315,188,313,192,123,111"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="806,248,762,256,715,253,676,239,643,222,645,217,678,234,717,248,762,250,805,243"/>
+<area shape="rect" id="Node000006" href="$structjanus__sip__account.html" title=" " alt="" coords="275,289,416,314"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="429,285,479,274,528,258,568,238,602,217,605,222,571,243,530,262,480,279,430,291"/>
+<area shape="rect" id="Node000007" href="$structjanus__sip__media.html" title=" " alt="" coords="280,239,411,265"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="424,240,529,224,565,217,567,222,530,229,425,245"/>
+<area shape="rect" id="Node000008" href="$structjanus__rtp__switching__context.html" title="RTP context, in order to make sure SSRC changes result in coherent seq/ts increases." alt="" coords="5,213,156,253"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="153,254,180,260,231,263,280,260,280,265,231,268,180,265,152,260"/>
+<area shape="poly" id="edge12_Node000010_Node000008" title=" " alt="" coords="169,220,286,207,286,212,170,226"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="403,118,465,127,530,144,574,167,608,192,605,196,571,172,528,149,464,132,402,124"/>
+<area shape="poly" id="edge11_Node000002_Node000010" title=" " alt="" coords="418,202,449,203,553,204,553,209,449,208,418,207"/>
+<area shape="rect" id="Node000011" href="$structjanus__sip__dtmf.html" title=" " alt="" coords="285,338,406,363"/>
+<area shape="poly" id="edge16_Node000002_Node000011" title=" " alt="" coords="419,338,474,324,528,300,554,281,577,259,611,218,615,221,581,262,558,285,531,305,476,329,420,344"/>
+</map>

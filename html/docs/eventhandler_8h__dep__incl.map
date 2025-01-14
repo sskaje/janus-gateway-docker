@@ -1,0 +1,39 @@
+<map id="eventhandler.h" name="eventhandler.h">
+<area shape="rect" id="Node000001" title="Modular Janus event handlers (headers)" alt="" coords="647,5,765,31"/>
+<area shape="rect" id="Node000002" href="$events_8h.html" title="Event handler notifications (headers)" alt="" coords="509,79,588,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="669,39,575,81,573,76,667,34"/>
+<area shape="rect" id="Node000007" href="$janus__gelfevh_8c.html" title="Janus GelfEventHandler plugin." alt="" coords="336,152,460,177"/>
+<area shape="poly" id="edge18_Node000001_Node000007" title=" " alt="" coords="634,34,566,53,498,81,471,98,447,118,410,154,406,150,443,114,468,94,495,76,565,48,633,29"/>
+<area shape="rect" id="Node000008" href="$janus__mqttevh_8c.html" title="Janus MQTTEventHandler plugin." alt="" coords="586,152,717,177"/>
+<area shape="poly" id="edge19_Node000001_Node000008" title=" " alt="" coords="699,45,658,153,653,151,694,43"/>
+<area shape="rect" id="Node000009" href="$janus__nanomsgevh_8c.html" title="Janus NanomsgEventHandler plugin." alt="" coords="741,152,900,177"/>
+<area shape="poly" id="edge20_Node000001_Node000009" title=" " alt="" coords="726,40,814,150,809,153,722,43"/>
+<area shape="rect" id="Node000010" href="$janus__rabbitmqevh_8c.html" title="Janus RabbitMQEventHandler plugin." alt="" coords="924,152,1083,177"/>
+<area shape="poly" id="edge21_Node000001_Node000010" title=" " alt="" coords="743,34,981,150,979,154,741,39"/>
+<area shape="rect" id="Node000011" href="$janus__sampleevh_8c.html" title="Janus SampleEventHandler plugin." alt="" coords="1107,152,1254,177"/>
+<area shape="poly" id="edge22_Node000001_Node000011" title=" " alt="" coords="758,32,1144,149,1142,154,756,37"/>
+<area shape="rect" id="Node000012" href="$janus__wsevh_8c.html" title="Janus WebSockets EventHandler plugin." alt="" coords="1278,152,1395,177"/>
+<area shape="poly" id="edge23_Node000001_Node000012" title=" " alt="" coords="770,31,1287,149,1286,155,769,36"/>
+<area shape="rect" id="Node000014" href="$janus_8h.html" title="Janus core (headers)" alt="" coords="162,79,231,104"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="634,32,232,88,231,83,633,27"/>
+<area shape="rect" id="Node000003" href="$dtls_8c.html" title="DTLS/SRTP processing." alt="" coords="5,152,63,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="496,99,309,118,192,134,75,155,63,157,62,152,73,149,191,129,308,113,495,94"/>
+<area shape="rect" id="Node000004" href="$events_8c.html" title="Event handler notifications." alt="" coords="485,152,562,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="542,118,530,153,525,151,537,116"/>
+<area shape="rect" id="Node000005" href="$ice_8c.html" title="Janus handles and ICE/STUN/TURN processing." alt="" coords="87,152,139,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="496,101,340,120,245,136,151,155,140,157,138,152,149,149,244,131,340,115,495,95"/>
+<area shape="rect" id="Node000006" href="$janus_8c.html" title="Janus core." alt="" coords="163,152,231,177"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="496,105,244,155,231,157,230,152,243,149,495,100"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="513,112,424,154,422,149,511,107"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="578,110,636,150,633,154,575,114"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="602,104,778,149,776,155,601,109"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="602,98,931,149,930,155,601,104"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="602,95,1094,149,1107,151,1107,156,1094,155,601,101"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="602,93,886,113,1075,129,1266,149,1278,151,1277,156,1266,155,1074,134,885,118,601,98"/>
+<area shape="rect" id="Node000013" href="$sdp_8c.html" title="SDP processing." alt="" coords="255,152,311,177"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="496,109,324,155,312,158,311,153,323,149,495,104"/>
+<area shape="poly" id="edge14_Node000014_Node000003" title=" " alt="" coords="159,112,62,154,60,149,157,107"/>
+<area shape="poly" id="edge15_Node000014_Node000005" title=" " alt="" coords="174,115,128,154,125,150,171,111"/>
+<area shape="poly" id="edge16_Node000014_Node000006" title=" " alt="" coords="199,118,199,152,194,152,194,118"/>
+<area shape="poly" id="edge17_Node000014_Node000013" title=" " alt="" coords="223,110,271,150,267,154,219,115"/>
+</map>

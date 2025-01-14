@@ -1,0 +1,144 @@
+<map id="refcount.h" name="refcount.h">
+<area shape="rect" id="Node000001" title="Reference counter mechanism." alt="" coords="1285,5,1373,31"/>
+<area shape="rect" id="Node000002" href="$dtls_8h.html" title="DTLS/SRTP processing (headers)" alt="" coords="285,225,344,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1272,25,1133,37,938,61,716,99,603,124,494,155,448,171,404,191,336,227,333,223,402,186,446,166,493,149,602,119,715,93,937,55,1132,32,1272,20"/>
+<area shape="rect" id="Node000004" href="$ice_8h.html" title="Janus handles and ICE/STUN/TURN processing (headers)" alt="" coords="236,372,289,397"/>
+<area shape="poly" id="edge16_Node000001_Node000004" title=" " alt="" coords="1272,23,996,31,812,40,621,53,440,71,290,96,231,110,186,127,159,145,152,154,149,164,149,239,152,261,160,281,185,319,216,348,245,370,242,374,213,353,181,322,155,284,147,262,144,240,144,163,147,152,155,141,184,122,229,105,289,91,440,66,620,48,811,35,996,26,1272,18"/>
+<area shape="rect" id="Node000007" href="$janus_8h.html" title="Janus core (headers)" alt="" coords="144,445,213,471"/>
+<area shape="poly" id="edge17_Node000001_Node000007" title=" " alt="" coords="1272,22,966,27,759,34,543,46,339,64,168,89,101,105,50,122,19,142,11,153,8,164,8,312,12,337,22,359,38,379,57,397,102,424,145,443,143,448,99,429,54,401,34,383,18,362,7,339,3,313,3,163,6,150,15,138,48,118,100,100,167,84,339,59,543,41,759,29,966,22,1272,17"/>
+<area shape="rect" id="Node000011" href="$plugin_8h.html" title="Plugin&#45;Core communication (implementation)" alt="" coords="1292,79,1367,104"/>
+<area shape="poly" id="edge18_Node000001_Node000011" title=" " alt="" coords="1332,44,1332,79,1327,79,1327,44"/>
+<area shape="rect" id="Node000031" href="$record_8h.html" title="Audio/Video recorder." alt="" coords="1633,225,1708,251"/>
+<area shape="poly" id="edge86_Node000001_Node000031" title=" " alt="" coords="1387,19,1450,25,1526,35,1607,52,1686,76,1755,101,1781,119,1804,151,1808,167,1805,181,1796,194,1782,204,1746,221,1709,232,1707,227,1744,216,1779,200,1792,190,1800,179,1803,167,1799,153,1777,123,1752,106,1684,81,1606,57,1525,40,1450,30,1387,25"/>
+<area shape="rect" id="Node000038" href="$sdp-utils_8h.html" title="SDP utilities (headers)" alt="" coords="1417,225,1508,251"/>
+<area shape="poly" id="edge87_Node000001_Node000038" title=" " alt="" coords="1388,25,1489,43,1608,70,1665,87,1715,106,1756,127,1782,150,1788,165,1782,179,1768,188,1743,196,1670,211,1509,234,1508,229,1669,206,1741,191,1766,183,1778,176,1783,165,1778,154,1753,131,1713,111,1663,92,1607,75,1488,48,1387,30"/>
+<area shape="rect" id="Node000039" href="$transport_8h.html" title="Modular Janus API transports." alt="" coords="2860,79,2953,104"/>
+<area shape="poly" id="edge88_Node000001_Node000039" title=" " alt="" coords="1387,19,2860,85,2860,91,1387,25"/>
+<area shape="rect" id="Node000003" href="$dtls_8c.html" title="DTLS/SRTP processing." alt="" coords="50,519,107,544"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="293,262,214,340,168,392,125,447,102,486,86,520,81,517,97,483,120,444,164,388,211,336,290,258"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="301,263,282,300,272,339,266,372,261,371,266,338,278,298,297,261"/>
+<area shape="rect" id="Node000010" href="$sdp_8h.html" title="SDP processing (headers)" alt="" coords="337,299,394,324"/>
+<area shape="poly" id="edge12_Node000002_Node000010" title=" " alt="" coords="333,261,359,297,355,300,329,264"/>
+<area shape="rect" id="Node000005" href="$dtls-bio_8c.html" title=" " alt="" coords="237,445,320,471"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="271,410,279,445,273,446,266,411"/>
+<area shape="rect" id="Node000006" href="$ice_8c.html" title="Janus handles and ICE/STUN/TURN processing." alt="" coords="153,519,205,544"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="223,395,174,412,152,427,134,447,130,465,137,484,151,502,166,516,162,520,147,505,132,486,125,465,130,444,148,423,172,408,221,390"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="240,408,194,447,191,443,237,404"/>
+<area shape="rect" id="Node000009" href="$sdp_8c.html" title="SDP processing." alt="" coords="380,519,436,544"/>
+<area shape="poly" id="edge11_Node000004_Node000009" title=" " alt="" coords="290,404,334,443,401,517,397,520,330,447,286,408"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="153,481,97,521,93,516,150,476"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="181,484,181,519,176,519,176,484"/>
+<area shape="rect" id="Node000008" href="$janus_8c.html" title="Janus core." alt="" coords="499,519,567,544"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="228,468,500,521,499,527,227,474"/>
+<area shape="poly" id="edge10_Node000007_Node000009" title=" " alt="" coords="227,472,381,519,379,524,226,477"/>
+<area shape="poly" id="edge14_Node000010_Node000004" title=" " alt="" coords="339,334,281,374,278,370,336,330"/>
+<area shape="poly" id="edge13_Node000010_Node000006" title=" " alt="" coords="370,338,369,368,364,403,354,440,334,472,305,497,270,514,235,525,205,530,204,525,234,519,268,509,302,493,330,469,349,438,359,402,364,367,364,338"/>
+<area shape="poly" id="edge15_Node000010_Node000009" title=" " alt="" coords="373,337,408,518,403,519,368,338"/>
+<area shape="poly" id="edge22_Node000011_Node000004" title=" " alt="" coords="1278,97,961,116,785,133,712,143,658,155,632,166,606,180,552,195,508,200,466,208,415,228,366,261,324,302,292,343,272,373,267,370,288,339,320,299,362,257,412,223,464,203,507,195,551,189,604,175,630,162,657,149,712,138,784,128,960,111,1278,92"/>
+<area shape="poly" id="edge23_Node000011_Node000007" title=" " alt="" coords="1278,95,1142,95,947,102,721,121,606,135,494,155,374,172,326,189,302,205,275,227,252,253,233,282,206,346,190,405,183,446,177,445,185,403,201,344,228,280,248,250,271,223,299,201,324,185,373,167,493,149,605,130,721,115,946,97,1141,90,1278,89"/>
+<area shape="rect" id="Node000012" href="$auth_8h.html" title="Requests authentication (headers)" alt="" coords="670,152,733,177"/>
+<area shape="poly" id="edge19_Node000011_Node000012" title=" " alt="" coords="1278,101,799,155,733,162,733,157,798,149,1277,96"/>
+<area shape="rect" id="Node000014" href="$janus__audiobridge_8c.html" title="Janus AudioBridge plugin." alt="" coords="789,299,941,324"/>
+<area shape="poly" id="edge24_Node000011_Node000014" title=" " alt="" coords="1278,95,1214,99,1136,108,1052,126,972,154,943,169,922,182,904,200,886,227,872,265,868,299,863,298,867,263,882,224,900,197,918,178,940,164,970,150,1051,121,1135,103,1214,93,1278,90"/>
+<area shape="rect" id="Node000015" href="$janus__duktape__data_8h.html" title="Janus Duktape data/session definition (headers)" alt="" coords="1080,299,1245,324"/>
+<area shape="poly" id="edge25_Node000011_Node000015" title=" " alt="" coords="1279,103,1181,121,1065,148,1009,165,960,184,920,205,896,227,891,238,895,249,919,260,968,273,1090,296,1089,301,967,278,918,265,891,252,886,238,891,224,917,200,957,179,1007,160,1063,143,1180,116,1278,98"/>
+<area shape="rect" id="Node000018" href="$janus__echotest_8c.html" title="Janus EchoTest plugin." alt="" coords="1269,299,1400,324"/>
+<area shape="poly" id="edge28_Node000011_Node000018" title=" " alt="" coords="1333,118,1337,298,1332,298,1327,118"/>
+<area shape="rect" id="Node000019" href="$janus__lua__data_8h.html" title="Janus Lua data/session definition (headers)" alt="" coords="1425,299,1557,324"/>
+<area shape="poly" id="edge29_Node000011_Node000019" title=" " alt="" coords="1375,107,1413,125,1454,151,1493,183,1522,224,1527,245,1522,266,1503,300,1498,297,1517,264,1522,245,1518,226,1489,187,1451,155,1411,130,1373,112"/>
+<area shape="rect" id="Node000022" href="$janus__nosip_8c.html" title="Janus NoSIP plugin." alt="" coords="2175,299,2286,324"/>
+<area shape="poly" id="edge32_Node000011_Node000022" title=" " alt="" coords="1381,91,1472,95,1593,104,1727,121,1862,149,1968,184,2068,225,2211,296,2209,301,2066,230,1966,189,1861,155,1727,127,1592,109,1472,100,1381,96"/>
+<area shape="rect" id="Node000023" href="$janus__recordplay_8c.html" title="Janus Record&amp;Play plugin." alt="" coords="2009,299,2151,324"/>
+<area shape="poly" id="edge33_Node000011_Node000023" title=" " alt="" coords="1381,89,1465,92,1575,100,1696,118,1757,132,1816,149,1894,183,1966,225,2026,266,2067,296,2064,300,2023,270,1964,230,1891,188,1814,155,1755,137,1695,123,1574,105,1465,97,1381,95"/>
+<area shape="rect" id="Node000024" href="$janus__sip_8c.html" title="Janus SIP plugin." alt="" coords="1581,299,1675,324"/>
+<area shape="poly" id="edge34_Node000011_Node000024" title=" " alt="" coords="1381,103,1434,121,1488,150,1533,187,1572,229,1623,297,1618,300,1568,232,1529,191,1485,154,1432,126,1379,108"/>
+<area shape="rect" id="Node000025" href="$janus__streaming_8c.html" title="Janus Streaming plugin." alt="" coords="2311,299,2452,324"/>
+<area shape="poly" id="edge35_Node000011_Node000025" title=" " alt="" coords="1380,91,1480,96,1615,106,1767,123,1919,149,2050,184,2176,226,2356,296,2354,301,2174,231,2048,189,1918,155,1766,128,1614,111,1480,101,1380,97"/>
+<area shape="rect" id="Node000026" href="$janus__textroom_8c.html" title="Janus TextRoom plugin." alt="" coords="1634,152,1769,177"/>
+<area shape="poly" id="edge36_Node000011_Node000026" title=" " alt="" coords="1380,100,1642,149,1641,155,1379,105"/>
+<area shape="rect" id="Node000027" href="$janus__videocall_8c.html" title="Janus VideoCall plugin." alt="" coords="1850,299,1985,324"/>
+<area shape="poly" id="edge37_Node000011_Node000027" title=" " alt="" coords="1381,92,1477,98,1594,109,1704,126,1748,137,1781,150,1813,176,1850,218,1911,297,1907,300,1846,221,1809,180,1779,154,1747,142,1703,131,1593,114,1476,103,1380,98"/>
+<area shape="rect" id="Node000028" href="$janus__videoroom_8c.html" title="Janus VideoRoom plugin." alt="" coords="619,299,765,324"/>
+<area shape="poly" id="edge38_Node000011_Node000028" title=" " alt="" coords="1278,95,1093,96,848,104,730,111,627,122,550,136,525,144,510,154,502,165,500,177,503,189,509,201,530,225,556,249,602,278,650,296,648,301,600,282,553,253,526,229,505,204,498,190,495,177,497,163,506,150,522,140,548,131,626,116,729,106,848,98,1093,91,1278,90"/>
+<area shape="rect" id="Node000029" href="$plugin_8c.html" title=" " alt="" coords="521,152,594,177"/>
+<area shape="poly" id="edge39_Node000011_Node000029" title=" " alt="" coords="1279,97,995,115,806,132,614,155,595,158,594,153,613,149,805,126,995,110,1278,92"/>
+<area shape="rect" id="Node000030" href="$rtp_8h.html" title="RTP processing (headers)" alt="" coords="1227,152,1279,177"/>
+<area shape="poly" id="edge40_Node000011_Node000030" title=" " alt="" coords="1309,115,1268,154,1264,150,1305,111"/>
+<area shape="poly" id="edge21_Node000012_Node000008" title=" " alt="" coords="658,183,608,202,556,228,499,256,478,272,460,300,450,330,450,362,456,393,467,424,498,479,526,517,521,520,493,482,462,427,451,395,444,362,445,329,455,298,474,269,496,252,553,223,606,198,656,178"/>
+<area shape="rect" id="Node000013" href="$auth_8c.html" title="Requests authentication." alt="" coords="567,225,630,251"/>
+<area shape="poly" id="edge20_Node000012_Node000013" title=" " alt="" coords="675,187,617,227,614,223,672,183"/>
+<area shape="rect" id="Node000016" href="$janus__duktape_8c.html" title="Janus JavaScript plugin (via Duktape)" alt="" coords="969,372,1097,397"/>
+<area shape="poly" id="edge26_Node000015_Node000016" title=" " alt="" coords="1131,333,1056,374,1053,369,1128,328"/>
+<area shape="rect" id="Node000017" href="$janus__duktape__extra_8c.html" title="Janus Duktape plugin extra hooks." alt="" coords="1122,372,1291,397"/>
+<area shape="poly" id="edge27_Node000015_Node000017" title=" " alt="" coords="1179,334,1202,370,1197,373,1175,337"/>
+<area shape="rect" id="Node000020" href="$janus__lua_8c.html" title="Janus Lua plugin." alt="" coords="1401,372,1495,397"/>
+<area shape="poly" id="edge30_Node000019_Node000020" title=" " alt="" coords="1479,337,1457,373,1453,371,1474,334"/>
+<area shape="rect" id="Node000021" href="$janus__lua__extra_8c.html" title="Janus Lua plugin extra hooks." alt="" coords="1520,372,1656,397"/>
+<area shape="poly" id="edge31_Node000019_Node000021" title=" " alt="" coords="1519,330,1574,370,1571,374,1516,334"/>
+<area shape="poly" id="edge41_Node000030_Node000002" title=" " alt="" coords="1214,172,344,237,344,232,1214,166"/>
+<area shape="poly" id="edge42_Node000030_Node000014" title=" " alt="" coords="1216,185,1052,253,905,301,904,296,1050,248,1214,180"/>
+<area shape="poly" id="edge43_Node000030_Node000015" title=" " alt="" coords="1241,191,1172,300,1168,297,1236,188"/>
+<area shape="poly" id="edge44_Node000030_Node000018" title=" " alt="" coords="1253,191,1254,220,1262,249,1285,277,1313,296,1310,301,1282,281,1258,252,1248,221,1248,192"/>
+<area shape="poly" id="edge45_Node000030_Node000019" title=" " alt="" coords="1266,189,1285,220,1312,249,1339,265,1367,279,1425,297,1424,302,1365,284,1336,270,1309,253,1281,223,1262,191"/>
+<area shape="poly" id="edge46_Node000030_Node000022" title=" " alt="" coords="1293,166,1524,185,1679,201,1836,223,2032,260,2186,296,2185,301,2031,265,1836,228,1678,206,1523,190,1293,171"/>
+<area shape="poly" id="edge47_Node000030_Node000023" title=" " alt="" coords="1294,166,1498,184,1633,200,1769,223,1898,255,2041,296,2040,301,1897,261,1767,228,1632,206,1498,189,1293,171"/>
+<area shape="poly" id="edge48_Node000030_Node000024" title=" " alt="" coords="1283,182,1339,216,1406,248,1498,278,1581,298,1580,303,1497,284,1404,253,1337,220,1281,187"/>
+<area shape="poly" id="edge49_Node000030_Node000025" title=" " alt="" coords="1293,166,1557,184,1738,201,1922,223,2149,260,2329,296,2328,301,2148,265,1921,228,1737,206,1557,190,1293,171"/>
+<area shape="poly" id="edge50_Node000030_Node000027" title=" " alt="" coords="1293,165,1373,169,1480,179,1600,196,1721,223,1750,234,1778,248,1891,296,1889,301,1776,253,1748,239,1719,228,1599,201,1479,184,1372,174,1293,170"/>
+<area shape="poly" id="edge51_Node000030_Node000028" title=" " alt="" coords="1214,172,1071,190,982,206,894,228,793,265,715,301,713,296,791,260,893,223,981,201,1071,185,1213,167"/>
+<area shape="poly" id="edge52_Node000030_Node000031" title=" " alt="" coords="1293,170,1633,228,1632,233,1292,175"/>
+<area shape="rect" id="Node000033" href="$rtcp_8c.html" title="RTCP processing." alt="" coords="905,225,964,251"/>
+<area shape="poly" id="edge65_Node000030_Node000033" title=" " alt="" coords="1214,176,977,228,965,231,964,226,975,223,1213,171"/>
+<area shape="rect" id="Node000034" href="$rtp_8c.html" title="RTP processing." alt="" coords="988,225,1039,251"/>
+<area shape="poly" id="edge66_Node000030_Node000034" title=" " alt="" coords="1215,180,1039,232,1038,227,1213,175"/>
+<area shape="rect" id="Node000035" href="$rtpfwd_8h.html" title="RTP forwarders (headers)" alt="" coords="655,225,729,251"/>
+<area shape="poly" id="edge67_Node000030_Node000035" title=" " alt="" coords="1214,172,1013,193,748,228,730,231,729,226,748,223,1013,187,1213,167"/>
+<area shape="rect" id="Node000037" href="$sdp-utils_8c.html" title="SDP utilities." alt="" coords="966,299,1055,324"/>
+<area shape="poly" id="edge72_Node000030_Node000037" title=" " alt="" coords="1223,187,1031,301,1029,296,1221,182"/>
+<area shape="poly" id="edge73_Node000030_Node000038" title=" " alt="" coords="1293,177,1430,223,1428,228,1292,182"/>
+<area shape="poly" id="edge53_Node000031_Node000008" title=" " alt="" coords="1715,253,1759,274,1778,286,1789,297,1800,322,1800,342,1790,357,1773,368,1725,384,1669,400,1567,426,1431,450,1271,471,1101,489,780,516,568,531,568,525,780,511,1101,484,1270,466,1430,445,1566,421,1667,395,1724,378,1771,363,1787,353,1795,340,1795,323,1784,300,1774,290,1757,279,1713,258"/>
+<area shape="poly" id="edge54_Node000031_Node000014" title=" " alt="" coords="1620,246,1282,273,954,301,942,303,941,297,953,296,1282,267,1619,241"/>
+<area shape="poly" id="edge55_Node000031_Node000015" title=" " alt="" coords="1620,249,1245,301,1244,296,1620,244"/>
+<area shape="poly" id="edge56_Node000031_Node000018" title=" " alt="" coords="1620,253,1390,301,1388,296,1619,248"/>
+<area shape="poly" id="edge57_Node000031_Node000019" title=" " alt="" coords="1630,258,1521,301,1519,296,1628,253"/>
+<area shape="poly" id="edge58_Node000031_Node000022" title=" " alt="" coords="1722,242,1916,264,2163,296,2175,298,2175,303,2162,301,1915,269,1722,247"/>
+<area shape="poly" id="edge59_Node000031_Node000023" title=" " alt="" coords="1722,245,2015,296,2014,301,1721,251"/>
+<area shape="poly" id="edge60_Node000031_Node000024" title=" " alt="" coords="1659,264,1637,300,1633,297,1654,261"/>
+<area shape="poly" id="edge61_Node000031_Node000025" title=" " alt="" coords="1722,241,1970,263,2298,296,2311,298,2310,303,2297,301,1969,268,1721,246"/>
+<area shape="poly" id="edge62_Node000031_Node000027" title=" " alt="" coords="1722,251,1878,296,1877,301,1720,256"/>
+<area shape="poly" id="edge63_Node000031_Node000028" title=" " alt="" coords="1619,246,1520,253,1149,274,986,283,778,301,765,303,765,297,777,296,986,278,1148,268,1520,248,1619,241"/>
+<area shape="rect" id="Node000032" href="$record_8c.html" title=" " alt="" coords="1700,299,1775,324"/>
+<area shape="poly" id="edge64_Node000031_Node000032" title=" " alt="" coords="1693,259,1728,297,1725,300,1689,263"/>
+<area shape="poly" id="edge68_Node000035_Node000008" title=" " alt="" coords="657,260,631,277,609,300,591,329,576,359,555,423,542,479,537,519,532,518,537,478,550,421,571,357,586,326,605,297,628,273,654,255"/>
+<area shape="poly" id="edge69_Node000035_Node000014" title=" " alt="" coords="733,253,838,296,836,301,731,258"/>
+<area shape="poly" id="edge70_Node000035_Node000028" title=" " alt="" coords="695,264,695,299,689,299,689,264"/>
+<area shape="rect" id="Node000036" href="$rtpfwd_8c.html" title="RTP forwarders." alt="" coords="469,299,544,324"/>
+<area shape="poly" id="edge71_Node000035_Node000036" title=" " alt="" coords="651,258,538,301,536,296,649,253"/>
+<area shape="poly" id="edge85_Node000038_Node000010" title=" " alt="" coords="1403,244,1006,263,735,279,458,301,395,309,394,303,457,296,734,274,1006,257,1403,239"/>
+<area shape="poly" id="edge74_Node000038_Node000014" title=" " alt="" coords="1404,249,954,301,942,303,941,297,953,296,1404,243"/>
+<area shape="poly" id="edge75_Node000038_Node000015" title=" " alt="" coords="1404,256,1212,301,1211,296,1403,251"/>
+<area shape="poly" id="edge76_Node000038_Node000018" title=" " alt="" coords="1431,260,1357,301,1354,296,1429,255"/>
+<area shape="poly" id="edge77_Node000038_Node000019" title=" " alt="" coords="1475,263,1489,298,1484,300,1470,265"/>
+<area shape="poly" id="edge78_Node000038_Node000022" title=" " alt="" coords="1522,241,1850,267,2163,296,2175,298,2175,303,2162,301,1850,272,1521,246"/>
+<area shape="poly" id="edge79_Node000038_Node000023" title=" " alt="" coords="1522,243,1996,296,2009,298,2008,303,1996,301,1521,248"/>
+<area shape="poly" id="edge80_Node000038_Node000024" title=" " alt="" coords="1503,254,1602,296,1600,301,1501,258"/>
+<area shape="poly" id="edge81_Node000038_Node000025" title=" " alt="" coords="1522,241,1622,248,1960,268,2108,279,2298,296,2311,297,2310,303,2297,301,2107,284,1959,274,1621,253,1522,246"/>
+<area shape="poly" id="edge82_Node000038_Node000027" title=" " alt="" coords="1522,246,1850,297,1849,302,1521,251"/>
+<area shape="poly" id="edge83_Node000038_Node000028" title=" " alt="" coords="1404,246,1133,267,778,301,765,303,765,297,777,296,1133,262,1404,241"/>
+<area shape="poly" id="edge84_Node000038_Node000037" title=" " alt="" coords="1404,250,1068,301,1056,304,1055,298,1068,296,1403,245"/>
+<area shape="poly" id="edge89_Node000039_Node000007" title=" " alt="" coords="2846,97,2760,101,2662,111,2574,128,2540,140,2516,154,2500,174,2493,194,2491,216,2493,239,2494,261,2492,284,2484,306,2466,326,2415,364,2367,393,2320,415,2274,430,2230,439,2185,443,2096,440,1903,411,1793,400,1732,398,1668,400,1448,410,1262,412,945,406,792,405,629,410,444,423,226,448,214,450,213,445,225,443,443,417,629,404,792,400,945,401,1262,407,1448,405,1668,395,1732,393,1793,394,1904,406,2096,434,2185,438,2229,434,2273,425,2318,410,2364,389,2412,360,2462,322,2479,303,2487,283,2489,261,2487,239,2486,216,2487,193,2495,171,2513,150,2538,135,2572,123,2662,106,2760,96,2846,91"/>
+<area shape="rect" id="Node000040" href="$janus__http_8c.html" title="Janus RESTs transport plugin." alt="" coords="2977,152,3079,177"/>
+<area shape="poly" id="edge90_Node000039_Node000040" title=" " alt="" coords="2940,109,3009,149,3007,154,2937,113"/>
+<area shape="rect" id="Node000041" href="$janus__mqtt_8c.html" title="Janus MQTT transport plugin." alt="" coords="3103,152,3209,177"/>
+<area shape="poly" id="edge91_Node000039_Node000041" title=" " alt="" coords="2961,105,3116,149,3115,154,2959,110"/>
+<area shape="rect" id="Node000042" href="$janus__nanomsg_8c.html" title="Janus Nanomsg transport plugin." alt="" coords="3234,152,3369,177"/>
+<area shape="poly" id="edge92_Node000039_Node000042" title=" " alt="" coords="2967,101,3238,149,3238,155,2967,106"/>
+<area shape="rect" id="Node000043" href="$janus__pfunix_8c.html" title="Janus Unix Sockets transport plugin." alt="" coords="3393,152,3509,177"/>
+<area shape="poly" id="edge93_Node000039_Node000043" title=" " alt="" coords="2968,97,3382,149,3393,151,3392,156,3381,155,2967,102"/>
+<area shape="rect" id="Node000044" href="$janus__rabbitmq_8c.html" title="Janus RabbitMQ transport plugin." alt="" coords="2527,152,2662,177"/>
+<area shape="poly" id="edge94_Node000039_Node000044" title=" " alt="" coords="2847,109,2645,155,2644,149,2846,104"/>
+<area shape="rect" id="Node000045" href="$janus__websockets_8c.html" title="Janus WebSockets transport plugin." alt="" coords="2686,152,2837,177"/>
+<area shape="poly" id="edge95_Node000039_Node000045" title=" " alt="" coords="2872,112,2786,154,2784,149,2870,108"/>
+<area shape="rect" id="Node000046" href="$transport_8c.html" title=" " alt="" coords="2861,152,2953,177"/>
+<area shape="poly" id="edge96_Node000039_Node000046" title=" " alt="" coords="2909,118,2909,152,2904,152,2904,118"/>
+</map>

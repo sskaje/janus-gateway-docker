@@ -1,0 +1,14 @@
+<map id="janus_textroom_participant" name="janus_textroom_participant">
+<area shape="rect" id="Node000001" title=" " alt="" coords="22,280,223,305"/>
+<area shape="rect" id="Node000002" href="$structjanus__textroom__session.html" title=" " alt="" coords="32,192,212,217"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,231,125,279,120,279,120,231"/>
+<area shape="rect" id="Node000003" href="$structjanus__plugin__session.html" title="Plugin&#45;Gateway session mapping." alt="" coords="93,93,253,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="153,130,143,144,133,169,127,192,122,191,128,167,139,141,149,127"/>
+<area shape="rect" id="Node000004" href="$structjanus__refcount.html" title=" " alt="" coords="50,5,168,31"/>
+<area shape="poly" id="edge7_Node000001_Node000004" title=" " alt="" coords="79,41,63,56,34,98,14,135,9,153,9,172,13,193,22,216,36,236,55,253,95,278,93,282,52,258,32,240,17,219,8,195,3,173,4,152,9,133,29,95,59,53,75,37"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="89,42,65,78,59,98,61,118,71,139,84,159,112,190,108,193,80,162,66,142,56,119,54,97,60,75,85,39"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="128,40,166,91,162,94,124,43"/>
+<area shape="rect" id="Node000005" href="$structjanus__textroom__room.html" title=" " alt="" coords="202,143,368,168"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="170,33,221,55,246,72,267,92,281,117,287,142,281,143,276,119,263,95,242,76,218,60,168,37"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="268,180,230,218,183,258,145,282,142,278,180,254,226,214,264,176"/>
+</map>

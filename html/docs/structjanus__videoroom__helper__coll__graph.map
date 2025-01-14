@@ -1,0 +1,8 @@
+<map id="janus_videoroom_helper" name="janus_videoroom_helper">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,181,188,207"/>
+<area shape="rect" id="Node000002" href="$structjanus__videoroom.html" title=" " alt="" coords="105,93,240,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,131,109,183,105,179,151,127"/>
+<area shape="rect" id="Node000003" href="$structjanus__refcount.html" title=" " alt="" coords="20,5,139,31"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="76,45,71,80,73,118,82,152,93,180,89,182,77,154,67,119,66,80,71,44"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="104,38,161,91,158,95,100,42"/>
+</map>

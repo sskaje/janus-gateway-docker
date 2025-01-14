@@ -1,0 +1,5 @@
+<map id="janus_sip_media" name="janus_sip_media">
+<area shape="rect" id="Node000001" title=" " alt="" coords="15,123,146,148"/>
+<area shape="rect" id="Node000002" href="$structjanus__rtp__switching__context.html" title="RTP context, in order to make sure SSRC changes result in coherent seq/ts increases." alt="" coords="5,5,156,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,59,83,122,78,122,78,59"/>
+</map>

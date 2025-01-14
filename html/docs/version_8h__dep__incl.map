@@ -1,0 +1,21 @@
+<map id="version.h" name="version.h">
+<area shape="rect" id="Node000001" title="Janus GitHub versioning (headers)" alt="" coords="369,5,452,31"/>
+<area shape="rect" id="Node000002" href="$janus-cfgconv_8c.html" title="Simple utility to convert Janus .cfg files to .jcfg and vice&#45;versa." alt="" coords="5,79,128,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="356,33,122,81,121,76,355,28"/>
+<area shape="rect" id="Node000003" href="$janus_8c.html" title="Janus core." alt="" coords="153,79,221,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="362,37,222,82,220,77,361,32"/>
+<area shape="rect" id="Node000004" href="$mjr2pcap_8c.html" title="Helper tool to convert Janus .mjr recordings to .pcap files." alt="" coords="245,79,339,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="381,40,313,81,310,76,378,35"/>
+<area shape="rect" id="Node000005" href="$pcap2mjr_8c.html" title="Helper tool to convert .pcap files to Janus .mjr recordings." alt="" coords="364,79,457,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="413,44,413,79,408,79,408,44"/>
+<area shape="rect" id="Node000006" href="$pp-options_8h.html" title="Command line options parser for janus&#45;pp&#45;rec." alt="" coords="482,79,585,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="443,35,515,76,512,81,441,40"/>
+<area shape="rect" id="Node000009" href="$pp-opus_8c.html" title="Post&#45;processing to generate .opus files." alt="" coords="609,79,695,104"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="464,32,614,76,612,81,462,37"/>
+<area shape="rect" id="Node000010" href="$version_8c.html" title=" " alt="" coords="719,79,801,104"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="466,28,707,76,720,79,719,84,706,81,465,33"/>
+<area shape="rect" id="Node000007" href="$janus-pp-rec_8c.html" title="Simple utility to post&#45;process .mjr Recordings saved by Janus." alt="" coords="409,152,524,177"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="515,116,479,154,476,150,511,113"/>
+<area shape="rect" id="Node000008" href="$pp-options_8c.html" title=" " alt="" coords="549,152,651,177"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="556,113,591,150,587,154,552,116"/>
+</map>

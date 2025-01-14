@@ -1,0 +1,12 @@
+<map id="debug.h" name="debug.h">
+<area shape="rect" id="Node000001" title="Logging and Debugging." alt="" coords="36,5,110,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="8,152,66,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,33,31,53,11,80,8,95,10,110,23,139,18,141,5,111,3,94,6,78,27,49,52,29"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="21,79,125,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="76,31,76,65,70,65,70,31"/>
+<area shape="rect" id="Node000004" href="$log_8h.html" title="Buffered logging (headers)" alt="" coords="150,79,204,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="91,28,150,68,147,73,88,33"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="156,106,73,148,71,143,153,102"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="144,152,210,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="180,104,180,138,174,138,174,104"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="mutex.h" name="mutex.h">
+<area shape="rect" id="Node000001" title="Semaphores, Mutexes and Conditions." alt="" coords="109,5,185,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,89,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,33,76,73,73,68,130,29"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="113,79,181,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="150,31,150,65,145,65,145,31"/>
+<area shape="rect" id="Node000004" href="$debug_8h.html" title="Logging and Debugging." alt="" coords="206,79,281,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="164,29,218,68,215,72,161,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="178,225,237,251"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="226,106,201,126,182,153,179,168,180,183,193,213,188,215,175,185,173,168,177,151,197,122,223,102"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="191,152,295,177"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="246,104,246,138,241,138,241,104"/>
+<area shape="rect" id="Node000007" href="$log_8h.html" title="Buffered logging (headers)" alt="" coords="320,152,375,177"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="262,102,320,142,317,146,259,106"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="326,180,243,221,241,217,324,175"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="314,225,381,251"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="350,178,350,212,345,212,345,178"/>
+</map>

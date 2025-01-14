@@ -1,0 +1,9 @@
+<map id="rtcp_sr" name="rtcp_sr">
+<area shape="rect" id="Node000001" title="RTCP Sender Report (http://tools.ietf.org/html/rfc3550#section&#45;6.4.1)" alt="" coords="144,93,211,119"/>
+<area shape="rect" id="Node000002" href="$structrtcp__header.html" title="RTCP Header (http://tools.ietf.org/html/rfc3550#section&#45;6.1)" alt="" coords="5,5,104,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,37,124,67,160,91,157,95,121,72,79,41"/>
+<area shape="rect" id="Node000003" href="$structsender__info.html" title="RTCP Sender Information (http://tools.ietf.org/html/rfc3550#section&#45;6.4.1)" alt="" coords="128,5,227,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,45,180,93,175,93,175,45"/>
+<area shape="rect" id="Node000004" href="$structreport__block.html" title="RTCP Report Block (http://tools.ietf.org/html/rfc3550#section&#45;6.4.1)" alt="" coords="251,5,354,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="276,41,196,95,193,91,273,36"/>
+</map>

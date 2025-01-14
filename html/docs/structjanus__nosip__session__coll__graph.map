@@ -1,0 +1,19 @@
+<map id="janus_nosip_session" name="janus_nosip_session">
+<area shape="rect" id="Node000001" title=" " alt="" coords="198,255,353,280"/>
+<area shape="rect" id="Node000002" href="$structjanus__plugin__session.html" title="Plugin&#45;Gateway session mapping." alt="" coords="48,123,208,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,157,182,192,222,229,257,252,254,257,219,233,178,196,145,160"/>
+<area shape="rect" id="Node000003" href="$structjanus__refcount.html" title=" " alt="" coords="159,13,278,38"/>
+<area shape="poly" id="edge10_Node000001_Node000003" title=" " alt="" coords="146,42,91,57,41,80,23,94,12,109,9,127,15,147,31,169,50,189,97,219,149,240,199,253,197,258,147,245,95,224,47,193,27,173,10,149,3,127,7,107,19,90,38,75,89,52,145,37"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="202,50,139,124,135,121,198,47"/>
+<area shape="rect" id="Node000006" href="$structjanus__sdp.html" title="Janus SDP internal object representation." alt="" coords="232,123,319,148"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="233,49,272,121,267,124,229,52"/>
+<area shape="rect" id="Node000007" href="$structjanus__recorder.html" title="Structure that represents a recorder." alt="" coords="343,123,462,148"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="251,43,384,120,381,125,248,47"/>
+<area shape="rect" id="Node000004" href="$structjanus__nosip__media.html" title=" " alt="" coords="486,123,633,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="539,159,490,197,429,233,390,247,351,257,350,252,389,242,426,228,487,193,535,155"/>
+<area shape="rect" id="Node000005" href="$structjanus__rtp__switching__context.html" title="RTP context, in order to make sure SSRC changes result in coherent seq/ts increases." alt="" coords="359,5,510,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="468,52,548,120,544,124,465,56"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="427,59,408,123,403,121,422,58"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="278,162,278,254,273,254,273,162"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="383,160,289,256,285,252,379,156"/>
+</map>

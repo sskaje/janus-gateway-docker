@@ -1,0 +1,23 @@
+<map id="janus&#45;cfgconv.c" name="janus&#45;cfgconv.c">
+<area shape="rect" id="Node000001" title="Simple utility to convert Janus .cfg files to .jcfg and vice&#45;versa." alt="" coords="147,5,270,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,76,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,33,82,76,80,71,181,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="100,79,171,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,33,159,71,155,67,195,29"/>
+<area shape="rect" id="Node000004" href="$config_8h.html" title="Configuration files parsing (headers)" alt="" coords="127,152,200,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="208,32,174,140,169,138,202,30"/>
+<area shape="rect" id="Node000006" href="$debug_8h.html" title="Logging and Debugging." alt="" coords="246,79,321,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="222,29,263,67,259,71,219,33"/>
+<area shape="rect" id="Node000010" href="$version_8h.html" title="Janus GitHub versioning (headers)" alt="" coords="345,79,427,104"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="238,28,346,71,344,76,236,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="209,225,267,251"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="177,175,218,214,214,218,173,179"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="282,105,266,153,248,213,243,211,261,151,277,103"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="275,152,379,177"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="293,103,315,139,311,142,288,106"/>
+<area shape="rect" id="Node000008" href="$log_8h.html" title="Buffered logging (headers)" alt="" coords="404,152,459,177"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="308,102,396,144,394,148,306,106"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="405,179,281,224,280,219,403,174"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="398,225,465,251"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="434,178,434,212,429,212,429,178"/>
+</map>

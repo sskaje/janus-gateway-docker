@@ -1,0 +1,7 @@
+<map id="pp&#45;srt.h" name="pp&#45;srt.h">
+<area shape="rect" id="Node000001" title="Post&#45;processing to generate .srt files (headers)" alt="" coords="85,5,157,31"/>
+<area shape="rect" id="Node000002" href="$janus-pp-rec_8c.html" title="Simple utility to post&#45;process .mjr Recordings saved by Janus." alt="" coords="5,79,120,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,43,74,80,70,77,101,40"/>
+<area shape="rect" id="Node000003" href="$pp-srt_8c.html" title="Post&#45;processing to generate .srt files." alt="" coords="145,79,215,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="142,40,173,77,168,80,138,43"/>
+</map>

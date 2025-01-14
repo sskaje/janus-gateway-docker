@@ -1,0 +1,7 @@
+<map id="pp&#45;opus.h" name="pp&#45;opus.h">
+<area shape="rect" id="Node000001" title="Post&#45;processing to generate .opus files (headers)" alt="" coords="81,5,167,31"/>
+<area shape="rect" id="Node000002" href="$janus-pp-rec_8c.html" title="Simple utility to post&#45;process .mjr Recordings saved by Janus." alt="" coords="5,79,120,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,43,75,80,71,77,103,40"/>
+<area shape="rect" id="Node000003" href="$pp-opus_8c.html" title="Post&#45;processing to generate .opus files." alt="" coords="144,79,229,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,39,179,77,175,80,141,43"/>
+</map>

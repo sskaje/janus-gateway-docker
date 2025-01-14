@@ -1,0 +1,53 @@
+<map id="sdp&#45;utils.h" name="sdp&#45;utils.h">
+<area shape="rect" id="Node000001" title="SDP utilities (headers)" alt="" coords="913,5,1004,31"/>
+<area shape="rect" id="Node000002" href="$janus__audiobridge_8c.html" title="Janus AudioBridge plugin." alt="" coords="5,79,157,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="900,25,588,46,170,81,158,83,157,77,169,76,587,41,899,20"/>
+<area shape="rect" id="Node000003" href="$janus__duktape__data_8h.html" title="Janus Duktape data/session definition (headers)" alt="" coords="181,79,347,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="900,27,359,81,347,83,347,77,358,76,899,22"/>
+<area shape="rect" id="Node000006" href="$janus__echotest_8c.html" title="Janus EchoTest plugin." alt="" coords="371,79,501,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="900,30,514,81,502,83,501,78,513,76,899,24"/>
+<area shape="rect" id="Node000007" href="$janus__lua__data_8h.html" title="Janus Lua data/session definition (headers)" alt="" coords="526,79,658,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="900,33,652,81,651,76,899,28"/>
+<area shape="rect" id="Node000010" href="$janus__nosip_8c.html" title="Janus NoSIP plugin." alt="" coords="682,79,793,104"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="911,37,774,81,772,76,910,32"/>
+<area shape="rect" id="Node000011" href="$janus__recordplay_8c.html" title="Janus Record&amp;Play plugin." alt="" coords="817,79,959,104"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="939,43,901,80,898,77,935,39"/>
+<area shape="rect" id="Node000012" href="$janus__sip_8c.html" title="Janus SIP plugin." alt="" coords="983,79,1078,104"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="982,39,1021,77,1017,80,979,43"/>
+<area shape="rect" id="Node000013" href="$janus__streaming_8c.html" title="Janus Streaming plugin." alt="" coords="1103,79,1244,104"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1007,32,1139,76,1138,81,1005,37"/>
+<area shape="rect" id="Node000014" href="$janus__videocall_8c.html" title="Janus VideoCall plugin." alt="" coords="1269,79,1403,104"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="1018,28,1276,76,1275,81,1017,33"/>
+<area shape="rect" id="Node000015" href="$janus__videoroom_8c.html" title="Janus VideoRoom plugin." alt="" coords="1427,79,1573,104"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="1018,24,1415,76,1427,78,1427,83,1414,81,1018,30"/>
+<area shape="rect" id="Node000016" href="$sdp-utils_8c.html" title="SDP utilities." alt="" coords="1597,79,1686,104"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="1018,20,1265,40,1424,56,1584,76,1597,78,1596,83,1584,81,1424,61,1265,45,1018,26"/>
+<area shape="rect" id="Node000017" href="$sdp_8h.html" title="SDP processing (headers)" alt="" coords="1710,79,1767,104"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="1017,18,1142,22,1311,31,1503,49,1698,76,1710,79,1709,84,1697,81,1503,54,1310,37,1141,27,1017,23"/>
+<area shape="rect" id="Node000004" href="$janus__duktape_8c.html" title="Janus JavaScript plugin (via Duktape)" alt="" coords="71,152,199,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="232,113,157,154,155,149,230,108"/>
+<area shape="rect" id="Node000005" href="$janus__duktape__extra_8c.html" title="Janus Duktape plugin extra hooks." alt="" coords="223,152,393,177"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="281,114,303,150,299,153,276,117"/>
+<area shape="rect" id="Node000008" href="$janus__lua_8c.html" title="Janus Lua plugin." alt="" coords="502,152,597,177"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="580,117,559,153,554,151,576,114"/>
+<area shape="rect" id="Node000009" href="$janus__lua__extra_8c.html" title="Janus Lua plugin extra hooks." alt="" coords="621,152,757,177"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="620,110,675,150,672,154,617,114"/>
+<area shape="rect" id="Node000018" href="$ice_8c.html" title="Janus handles and ICE/STUN/TURN processing." alt="" coords="1583,299,1635,324"/>
+<area shape="poly" id="edge17_Node000017_Node000018" title=" " alt="" coords="1714,114,1663,161,1638,192,1618,226,1610,265,1611,298,1605,299,1605,264,1614,224,1634,189,1659,158,1710,110"/>
+<area shape="rect" id="Node000019" href="$ice_8h.html" title="Janus handles and ICE/STUN/TURN processing (headers)" alt="" coords="1712,152,1765,177"/>
+<area shape="poly" id="edge18_Node000017_Node000019" title=" " alt="" coords="1741,118,1741,152,1736,152,1736,118"/>
+<area shape="rect" id="Node000024" href="$sdp_8c.html" title="SDP processing." alt="" coords="1847,299,1903,324"/>
+<area shape="poly" id="edge27_Node000017_Node000024" title=" " alt="" coords="1766,111,1817,158,1843,190,1864,224,1875,264,1878,298,1872,299,1870,265,1859,226,1838,193,1813,162,1763,115"/>
+<area shape="poly" id="edge20_Node000019_Node000018" title=" " alt="" coords="1700,182,1666,201,1637,227,1626,245,1619,264,1613,299,1607,298,1614,263,1621,242,1633,224,1663,196,1698,178"/>
+<area shape="rect" id="Node000020" href="$dtls-bio_8c.html" title=" " alt="" coords="1647,225,1729,251"/>
+<area shape="poly" id="edge19_Node000019_Node000020" title=" " alt="" coords="1724,190,1698,227,1694,224,1720,187"/>
+<area shape="rect" id="Node000021" href="$janus_8h.html" title="Janus core (headers)" alt="" coords="1753,225,1823,251"/>
+<area shape="poly" id="edge21_Node000019_Node000021" title=" " alt="" coords="1757,187,1782,224,1778,227,1752,190"/>
+<area shape="poly" id="edge26_Node000019_Node000024" title=" " alt="" coords="1779,181,1809,199,1837,224,1861,262,1874,297,1869,299,1856,265,1833,227,1806,204,1776,186"/>
+<area shape="poly" id="edge23_Node000021_Node000018" title=" " alt="" coords="1747,258,1637,302,1635,297,1745,253"/>
+<area shape="rect" id="Node000022" href="$dtls_8c.html" title="DTLS/SRTP processing." alt="" coords="1673,299,1730,324"/>
+<area shape="poly" id="edge22_Node000021_Node000022" title=" " alt="" coords="1765,261,1717,301,1714,296,1762,257"/>
+<area shape="rect" id="Node000023" href="$janus_8c.html" title="Janus core." alt="" coords="1754,299,1822,324"/>
+<area shape="poly" id="edge24_Node000021_Node000023" title=" " alt="" coords="1791,264,1791,299,1785,299,1785,264"/>
+<area shape="poly" id="edge25_Node000021_Node000024" title=" " alt="" coords="1814,257,1862,296,1859,301,1811,261"/>
+</map>

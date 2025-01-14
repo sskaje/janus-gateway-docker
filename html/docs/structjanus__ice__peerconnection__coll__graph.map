@@ -1,0 +1,21 @@
+<map id="janus_ice_peerconnection" name="janus_ice_peerconnection">
+<area shape="rect" id="Node000001" title="Janus handle WebRTC PeerConnection." alt="" coords="221,196,412,221"/>
+<area shape="rect" id="Node000002" href="$structjanus__ice__handle.html" title="Janus ICE handle." alt="" coords="169,284,304,309"/>
+<area shape="poly" id="edge4_Node000002_Node000001" title=" " alt="" coords="307,235,289,262,259,286,256,282,285,258,303,232"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,270,230,257,235,244,250,229,268,219,270,224,253,233,240,247,235,258,235,271"/>
+<area shape="rect" id="Node000003" href="$structjanus__plugin__session.html" title="Plugin&#45;Gateway session mapping." alt="" coords="47,145,207,170"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,183,125,202,131,220,146,241,165,258,207,282,205,286,162,262,142,244,126,223,120,203,120,183"/>
+<area shape="rect" id="Node000004" href="$structjanus__refcount.html" title=" " alt="" coords="90,5,209,31"/>
+<area shape="poly" id="edge11_Node000001_Node000004" title=" " alt="" coords="198,34,242,57,264,73,282,92,299,118,310,147,318,195,313,196,304,149,294,120,278,95,260,77,239,62,195,38"/>
+<area shape="poly" id="edge6_Node000002_Node000004" title=" " alt="" coords="114,39,73,63,34,95,20,113,11,131,9,151,15,171,29,193,48,212,92,244,140,267,185,281,183,286,138,272,89,249,44,216,25,196,10,173,3,151,6,130,15,110,30,91,70,59,111,35"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="148,45,139,94,131,145,126,144,134,93,142,44"/>
+<area shape="rect" id="Node000006" href="$structjanus__dtls__srtp.html" title="Janus DTLS&#45;SRTP handle." alt="" coords="148,93,268,119"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="168,41,202,91,198,94,163,44"/>
+<area shape="rect" id="Node000005" href="$structjanus__text2pcap.html" title="Instance of a text2pcap recorder." alt="" coords="436,196,565,221"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="453,228,273,286,271,281,451,223"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="229,127,270,170,301,194,298,198,267,174,225,131"/>
+<area shape="rect" id="Node000007" href="$structjanus__ice__stats.html" title="Janus media statistics container." alt="" coords="363,93,486,119"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="404,130,330,198,327,194,400,126"/>
+<area shape="rect" id="Node000008" href="$structjanus__ice__stats__info.html" title="Janus media statistics." alt="" coords="347,5,502,31"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="427,45,427,93,422,93,422,45"/>
+</map>

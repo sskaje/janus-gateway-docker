@@ -1,0 +1,7 @@
+<map id="janus_recorder" name="janus_recorder">
+<area shape="rect" id="Node000001" title="Structure that represents a recorder." alt="" coords="100,108,219,133"/>
+<area shape="rect" id="Node000002" href="$structjanus__rtp__switching__context.html" title="RTP context, in order to make sure SSRC changes result in coherent seq/ts increases." alt="" coords="5,5,156,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,54,151,106,147,109,103,57"/>
+<area shape="rect" id="Node000003" href="$structjanus__refcount.html" title=" " alt="" coords="180,13,299,38"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="223,50,171,110,167,106,218,47"/>
+</map>

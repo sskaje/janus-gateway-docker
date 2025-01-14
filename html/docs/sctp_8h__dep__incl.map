@@ -1,0 +1,28 @@
+<map id="sctp.h" name="sctp.h">
+<area shape="rect" id="Node000001" title="SCTP processing for data channels (headers)" alt="" coords="184,5,245,31"/>
+<area shape="rect" id="Node000002" href="$dtls_8h.html" title="DTLS/SRTP processing (headers)" alt="" coords="244,79,303,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,40,266,77,262,80,231,43"/>
+<area shape="rect" id="Node000004" href="$ice_8h.html" title="Janus handles and ICE/STUN/TURN processing (headers)" alt="" coords="185,225,239,251"/>
+<area shape="poly" id="edge16_Node000001_Node000004" title=" " alt="" coords="217,45,215,225,209,225,212,45"/>
+<area shape="rect" id="Node000003" href="$dtls_8c.html" title="DTLS/SRTP processing." alt="" coords="350,372,407,397"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="305,110,325,128,342,151,356,181,367,213,379,277,382,333,382,372,377,372,377,333,373,277,361,214,351,183,338,153,322,132,302,114"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="266,118,219,226,214,224,261,116"/>
+<area shape="rect" id="Node000010" href="$sdp_8h.html" title="SDP processing (headers)" alt="" coords="270,152,327,177"/>
+<area shape="poly" id="edge12_Node000002_Node000010" title=" " alt="" coords="285,116,297,151,292,153,280,118"/>
+<area shape="rect" id="Node000005" href="$dtls-bio_8c.html" title=" " alt="" coords="71,299,153,324"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="186,261,130,301,127,296,183,256"/>
+<area shape="rect" id="Node000006" href="$ice_8c.html" title="Janus handles and ICE/STUN/TURN processing." alt="" coords="263,372,315,397"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="234,259,261,297,278,337,289,371,284,373,273,339,256,300,230,262"/>
+<area shape="rect" id="Node000007" href="$janus_8h.html" title="Janus core (headers)" alt="" coords="177,299,247,324"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="215,264,215,299,209,299,209,264"/>
+<area shape="rect" id="Node000009" href="$sdp_8c.html" title="SDP processing." alt="" coords="5,372,61,397"/>
+<area shape="poly" id="edge11_Node000004_Node000009" title=" " alt="" coords="173,247,114,265,85,280,61,300,49,318,42,337,36,372,31,372,37,336,44,315,57,297,83,275,112,260,171,242"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="252,327,352,369,350,374,250,332"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="236,331,278,370,275,374,233,335"/>
+<area shape="rect" id="Node000008" href="$janus_8c.html" title="Janus core." alt="" coords="171,372,239,397"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="212,338,209,372,204,372,207,338"/>
+<area shape="poly" id="edge10_Node000007_Node000009" title=" " alt="" coords="172,331,62,375,60,370,170,327"/>
+<area shape="poly" id="edge14_Node000010_Node000004" title=" " alt="" coords="276,188,228,227,224,223,273,184"/>
+<area shape="poly" id="edge13_Node000010_Node000006" title=" " alt="" coords="300,192,293,372,287,371,295,191"/>
+<area shape="poly" id="edge15_Node000010_Node000009" title=" " alt="" coords="257,176,205,191,145,215,87,251,62,274,41,300,33,318,31,337,33,372,28,372,25,337,28,316,36,297,58,270,83,246,142,210,203,186,256,171"/>
+</map>

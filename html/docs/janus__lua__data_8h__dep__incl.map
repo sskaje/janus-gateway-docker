@@ -1,0 +1,7 @@
+<map id="janus_lua_data.h" name="janus_lua_data.h">
+<area shape="rect" id="Node000001" title="Janus Lua data/session definition (headers)" alt="" coords="56,5,188,31"/>
+<area shape="rect" id="Node000002" href="$janus__lua_8c.html" title="Janus Lua plugin." alt="" coords="5,79,100,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,43,66,80,62,77,99,39"/>
+<area shape="rect" id="Node000003" href="$janus__lua__extra_8c.html" title="Janus Lua plugin extra hooks." alt="" coords="125,79,261,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,39,183,77,179,80,141,43"/>
+</map>

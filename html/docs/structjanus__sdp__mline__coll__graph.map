@@ -1,0 +1,5 @@
+<map id="janus_sdp_mline" name="janus_sdp_mline">
+<area shape="rect" id="Node000001" title="SDP m&#45;line representation." alt="" coords="5,93,136,119"/>
+<area shape="rect" id="Node000002" href="$structjanus__refcount.html" title=" " alt="" coords="11,5,130,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,45,73,93,68,93,68,45"/>
+</map>

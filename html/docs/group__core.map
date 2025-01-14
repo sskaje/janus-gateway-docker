@@ -1,0 +1,4 @@
+<map id="Core" name="Core">
+<area shape="rect" id="Node000001" title="Core implementation of the server." alt="" coords="5,5,57,31"/>
+<area shape="rect" id="Node000002" href="$group__protocols.html" title="Implementations of the WebRTC protocols." alt="" coords="105,5,188,31"/>
+</map>

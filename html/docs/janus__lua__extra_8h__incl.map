@@ -1,0 +1,9 @@
+<map id="janus_lua_extra.h" name="janus_lua_extra.h">
+<area shape="rect" id="Node000001" title="Janus Lua plugin extra hooks (headers)" alt="" coords="51,5,188,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,60,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,33,59,72,56,68,104,29"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="84,79,155,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="122,31,122,65,117,65,117,31"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="179,79,257,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="137,29,192,68,189,73,134,33"/>
+</map>

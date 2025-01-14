@@ -1,0 +1,47 @@
+<map id="janus_mqttevh.c" name="janus_mqttevh.c">
+<area shape="rect" id="Node000001" title="Janus MQTTEventHandler plugin." alt="" coords="579,5,710,31"/>
+<area shape="rect" id="Node000002" href="$eventhandler_8h.html" title="Modular Janus event handlers (headers)" alt="" coords="412,152,531,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="604,33,559,52,537,65,517,81,495,110,481,140,477,138,491,107,513,77,534,60,557,47,602,28"/>
+<area shape="rect" id="Node000012" href="$utils_8h.html" title="TURN REST API client." alt="" coords="47,225,122,251"/>
+<area shape="poly" id="edge24_Node000001_Node000012" title=" " alt="" coords="615,33,491,81,127,223,125,218,489,76,613,28"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="527,79,637,104"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="636,33,603,70,599,66,632,29"/>
+<area shape="rect" id="Node000014" href="$debug_8h.html" title="Logging and Debugging." alt="" coords="779,152,865,177"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="680,28,723,48,766,77,793,107,813,138,808,141,789,110,763,81,721,53,678,33"/>
+<area shape="rect" id="Node000017" href="$config_8h.html" title="Configuration files parsing (headers)" alt="" coords="957,152,1042,177"/>
+<area shape="poly" id="edge22_Node000001_Node000017" title=" " alt="" coords="675,28,795,76,961,144,959,149,793,81,673,33"/>
+<area shape="rect" id="Node000018" href="$events_8h.html" title="Event handler notifications (headers)" alt="" coords="662,79,753,104"/>
+<area shape="poly" id="edge25_Node000001_Node000018" title=" " alt="" coords="657,29,690,66,686,70,653,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="356,225,427,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="460,179,416,218,413,214,457,175"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="272,299,343,324"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="472,179,463,214,454,234,441,252,422,269,401,282,357,301,355,296,399,277,419,265,437,249,450,232,458,212,467,177"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="687,299,754,324"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="531,167,568,173,608,184,647,200,682,223,705,253,717,284,712,286,700,255,679,227,645,205,606,189,567,178,530,172"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="503,225,573,251"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="484,176,520,213,516,217,480,179"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="597,225,668,251"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="498,175,595,217,593,222,496,180"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="146,225,221,251"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="426,180,234,227,233,222,424,175"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="245,225,332,251"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="443,180,332,223,330,218,441,175"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="793,299,851,324"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="532,172,618,190,665,205,710,223,761,254,801,287,798,291,758,258,707,228,663,210,616,195,531,177"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="5,299,89,324"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="412,168,314,169,202,177,148,184,100,195,62,209,37,227,31,240,29,255,38,286,32,287,24,255,26,238,33,224,60,205,99,190,147,179,201,172,314,164,412,162"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="412,178,136,228,135,222,411,173"/>
+<area shape="poly" id="edge12_Node000012_Node000004" title=" " alt="" coords="121,248,260,292,258,297,120,253"/>
+<area shape="poly" id="edge13_Node000012_Node000010" title=" " alt="" coords="123,246,134,248,230,261,311,268,450,273,589,278,766,296,780,298,779,303,766,301,589,283,450,279,311,273,229,266,134,253,122,251"/>
+<area shape="poly" id="edge14_Node000012_Node000011" title=" " alt="" coords="81,252,62,288,57,285,76,250"/>
+<area shape="poly" id="edge17_Node000014_Node000010" title=" " alt="" coords="866,168,916,178,964,194,983,205,996,218,1000,234,992,252,966,278,933,295,898,305,866,311,865,305,897,300,931,290,963,274,988,249,994,234,991,220,980,209,962,199,915,183,865,174"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="874,225,978,251"/>
+<area shape="poly" id="edge18_Node000014_Node000015" title=" " alt="" coords="840,175,899,215,896,219,837,180"/>
+<area shape="rect" id="Node000016" href="$log_8h.html" title="Buffered logging (headers)" alt="" coords="795,225,849,251"/>
+<area shape="poly" id="edge19_Node000014_Node000016" title=" " alt="" coords="825,178,825,212,819,212,819,178"/>
+<area shape="poly" id="edge20_Node000016_Node000005" title=" " alt="" coords="807,253,750,293,747,288,804,248"/>
+<area shape="poly" id="edge21_Node000016_Node000010" title=" " alt="" coords="825,251,825,285,819,285,819,251"/>
+<area shape="poly" id="edge23_Node000017_Node000010" title=" " alt="" coords="1008,177,1020,212,1021,233,1014,252,999,268,982,281,943,299,903,309,865,313,865,307,902,304,942,294,979,277,995,264,1009,249,1016,232,1015,213,1003,179"/>
+<area shape="poly" id="edge27_Node000018_Node000002" title=" " alt="" coords="670,107,523,151,522,145,669,101"/>
+<area shape="poly" id="edge26_Node000018_Node000014" title=" " alt="" coords="727,102,793,142,790,147,724,106"/>
+</map>

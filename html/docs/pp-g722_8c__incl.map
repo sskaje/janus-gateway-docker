@@ -1,0 +1,38 @@
+<map id="pp&#45;g722.c" name="pp&#45;g722.c">
+<area shape="rect" id="Node000001" title="Post&#45;processing to generate .wav files out of G.722 (headers)" alt="" coords="438,5,525,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="33,79,125,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="438,29,139,81,138,76,437,24"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="625,225,703,251"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="520,28,561,47,599,77,623,110,641,146,662,211,657,213,636,148,619,112,595,81,558,52,517,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="289,79,375,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="458,33,370,75,368,70,456,28"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="399,79,470,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="476,32,452,69,448,66,471,30"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="494,79,565,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="491,30,516,66,512,69,487,33"/>
+<area shape="rect" id="Node000007" href="$pp-avformat_8h.html" title=" " alt="" coords="149,79,264,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="438,33,265,78,264,73,437,28"/>
+<area shape="rect" id="Node000008" href="$debug_8h.html" title="Logging and Debugging." alt="" coords="465,152,551,177"/>
+<area shape="poly" id="edge20_Node000001_Node000008" title=" " alt="" coords="517,28,551,47,567,61,580,78,584,98,576,116,560,133,542,147,539,143,557,129,571,114,578,97,575,80,563,64,548,52,515,33"/>
+<area shape="rect" id="Node000015" href="$pp-g722_8h.html" title="Post&#45;processing to generate .wav files from G.722 (headers)" alt="" coords="691,79,778,104"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="523,28,681,72,680,77,521,33"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="256,101,452,148,451,153,254,107"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="5,152,168,177"/>
+<area shape="poly" id="edge13_Node000007_Node000013" title=" " alt="" coords="189,106,120,147,117,142,186,102"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="193,152,367,177"/>
+<area shape="poly" id="edge14_Node000007_Node000014" title=" " alt="" coords="221,102,260,140,256,144,217,106"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="544,299,603,324"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="513,177,522,210,537,250,559,286,554,289,532,252,517,212,508,179"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="367,225,471,251"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="495,179,446,219,442,214,492,175"/>
+<area shape="rect" id="Node000011" href="$log_8h.html" title="Buffered logging (headers)" alt="" coords="546,225,601,251"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="521,176,555,213,552,217,517,179"/>
+<area shape="poly" id="edge12_Node000011_Node000009" title=" " alt="" coords="576,251,576,285,571,285,571,251"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="703,299,769,324"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="601,248,698,291,696,295,598,253"/>
+<area shape="poly" id="edge16_Node000015_Node000012" title=" " alt="" coords="748,102,766,124,780,151,785,189,779,226,766,260,753,288,748,286,762,258,773,225,779,189,775,153,761,127,744,106"/>
+<area shape="rect" id="Node000016" href="$pp-rtp_8h.html" title="Helper structures to handle RTP post&#45;processing (headers)" alt="" coords="691,152,765,177"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="736,105,733,139,728,138,731,104"/>
+<area shape="poly" id="edge18_Node000016_Node000003" title=" " alt="" coords="719,179,685,217,681,213,715,176"/>
+<area shape="poly" id="edge19_Node000016_Node000009" title=" " alt="" coords="732,178,732,213,728,234,718,252,697,273,670,289,617,306,616,301,668,284,693,269,714,249,723,232,727,213,727,178"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Plugins" name="Plugins">
+<area shape="rect" id="Node000004" href="$group__jspapi.html" title="Duktape plugin (aka, how to write your own plugin in JavaScript)" alt="" coords="229,15,376,40"/>
+<area shape="rect" id="Node000003" href="$group__luapapi.html" title="Lua plugin (aka, how to write your own plugin in Lua)" alt="" coords="245,76,360,101"/>
+<area shape="rect" id="Node000002" href="$group__pluginapi.html" title="Plugin API (aka, how to write your own plugin)" alt="" coords="259,145,346,171"/>
+<area shape="rect" id="Node000001" title="Janus plugins available out of the box." alt="" coords="5,67,75,92"/>
+</map>
