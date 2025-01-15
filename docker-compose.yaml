@@ -14,7 +14,10 @@ services:
       - "8000:8000"
       - "7088:7088"
       - "7089:7089"
+      - "10000-10200:10000-10200/udp"
     volumes:
       - "./config/:/usr/local/etc/janus/"
     restart: always
+    # You can use host mode if you don't have other containers
+    #network_mode: "host"
 

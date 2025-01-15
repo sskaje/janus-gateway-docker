@@ -57,8 +57,9 @@ RUN cd /tmp && \
     make install && \
     make configs
 
-RUN mkdir /tmp/copy && cp /usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/libnice.so.10.14.0 /tmp/copy/
-RUN cp -R $(find /usr/local/share/doc/janus-gateway/ -type d -name 'html')/* /usr/local/share/janus/html/docs/
+RUN mkdir /tmp/copy && \
+    cp /usr/lib/$(gcc -print-multiarch)/libnice.so.10.14.0 /tmp/copy/ && \
+    mkdir /tmp/copy/docs && cp -R $(find /usr/local/share/doc/janus-gateway/ -type d -name 'html')/* /tmp/copy/docs/
 
 
 FROM ubuntu:24.04
@@ -91,6 +92,7 @@ RUN apt-get -y update && \
         libogg0 \
         libcurl4 \
         liblua5.3-0 \
+        lua-json lua-term \
         libconfig9 \
         libusrsctp2 \
         libwebsockets19t64 \
@@ -101,11 +103,12 @@ RUN apt-get -y update && \
     rm -rf /var/lib/apt/lists/*
 
 
-RUN mkdir /tmp/copy
-COPY --from=0 /tmp/copy/ /tmp/copy
-RUN cp /tmp/copy/libnice.so.10.14.0 /usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/libnice.so.10.14.0 && \
-    ln -s /usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/libnice.so.10.14.0 /usr/lib/libnice.so.10 && \
-    ln -s /usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/libnice.so.10.14.0 /usr/lib/libnice.so
+COPY --from=0 /tmp/copy /tmp/copy
+RUN cp /tmp/copy/libnice.so.10.14.0 /usr/lib/$(gcc -print-multiarch)/libnice.so.10.14.0 && \
+    ln -s /usr/lib/$(gcc -print-multiarch)/libnice.so.10.14.0 /usr/lib/$(gcc -print-multiarch)/libnice.so.10 && \
+    ln -s /usr/lib/$(gcc -print-multiarch)/libnice.so.10.14.0 /usr/lib/$(gcc -print-multiarch)/libnice.so && \
+    chmod -x /usr/lib/$(gcc -print-multiarch)/libnice.so.10.14.0 && \
+    rm -rf /tmp/copy
 
 COPY --from=0 /usr/local/bin/janus /usr/local/bin/janus
 COPY --from=0 /usr/local/bin/janus-pp-rec /usr/local/bin/janus-pp-rec
