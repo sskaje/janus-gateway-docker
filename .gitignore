@@ -11,5 +11,4 @@
 *.rej
 *.exe
 .*.swp
-
-/janus-gateway
+.idea
