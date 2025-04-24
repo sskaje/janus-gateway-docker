@@ -152,6 +152,11 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a34f9659a5a1d5a116952cb840dc60a50" id="r_a34f9659a5a1d5a116952cb840dc60a50"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjanus__plugin__rtp__extensions.html#a34f9659a5a1d5a116952cb840dc60a50">abs_capture_ts</a></td></tr>
 <tr class="memdesc:a34f9659a5a1d5a116952cb840dc60a50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Absolute Capture Time timestamp.  <br /></td></tr>
 <tr class="separator:a34f9659a5a1d5a116952cb840dc60a50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a397285abd1ec1536d5f790db894c76ff" id="r_a397285abd1ec1536d5f790db894c76ff"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjanus__plugin__rtp__extensions.html#a397285abd1ec1536d5f790db894c76ff">spatial_layers</a></td></tr>
+<tr class="memdesc:a397285abd1ec1536d5f790db894c76ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spatial and temporal layers, if available in a video-layers-allocation; -1 means no extension.  <br /></td></tr>
+<tr class="separator:a397285abd1ec1536d5f790db894c76ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f83704e54d6032e6f127c8fafb41315" id="r_a0f83704e54d6032e6f127c8fafb41315"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjanus__plugin__rtp__extensions.html#a0f83704e54d6032e6f127c8fafb41315">temporal_layers</a></td></tr>
+<tr class="separator:a0f83704e54d6032e6f127c8fafb41315"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Janus plugin RTP extensions. </p>
@@ -267,6 +272,36 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a id="a397285abd1ec1536d5f790db894c76ff" name="a397285abd1ec1536d5f790db894c76ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a397285abd1ec1536d5f790db894c76ff">&#9670;&#160;</a></span>spatial_layers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int8_t janus_plugin_rtp_extensions::spatial_layers</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Spatial and temporal layers, if available in a video-layers-allocation; -1 means no extension. </p>
+
+</div>
+</div>
+<a id="a0f83704e54d6032e6f127c8fafb41315" name="a0f83704e54d6032e6f127c8fafb41315"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f83704e54d6032e6f127c8fafb41315">&#9670;&#160;</a></span>temporal_layers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int8_t janus_plugin_rtp_extensions::temporal_layers</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1f1d42d837aad91e1c577343bf16398e" name="a1f1d42d837aad91e1c577343bf16398e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1f1d42d837aad91e1c577343bf16398e">&#9670;&#160;</a></span>video_back_camera</h2>
 
@@ -325,7 +360,7 @@ Data Fields</h2></td></tr>
 <!-- start footer part -->
 <div class="footer container">
 <hr class="footer"/>
-Last updated on Tue Jan 14 2025 &mdash; Janus WebRTC Server &copy; <a target="_blank" href="http://www.meetecho.com/">Meetecho</a> 2014-2024
+Last updated on Thu Apr 24 2025 &mdash; Janus WebRTC Server &copy; <a target="_blank" href="http://www.meetecho.com/">Meetecho</a> 2014-2025
 </div>
 </body>
 </html>

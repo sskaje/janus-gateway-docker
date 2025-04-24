@@ -6,18 +6,18 @@ services:
   janus-gateway:
     image: 'rst/janus-gateway:latest'
     command: ["/usr/local/bin/janus", "-F", "/usr/local/etc/janus"]
-    ports:
-      - "8188:8188"
-      - "8088:8088"
-      - "8089:8089"
-      - "8889:8889"
-      - "8000:8000"
-      - "7088:7088"
-      - "7089:7089"
-      - "10000-10200:10000-10200/udp"
+#    ports:
+#      - "8188:8188"
+#      - "8088:8088"
+#      - "8089:8089"
+#      - "8889:8889"
+#      - "8000:8000"
+#      - "7088:7088"
+#      - "7089:7089"
+#      - "10000-10200:10000-10200/udp"
     volumes:
       - "./config/:/usr/local/etc/janus/"
     restart: always
     # You can use host mode if you don't have other containers
-    #network_mode: "host"
+    network_mode: "host"
 

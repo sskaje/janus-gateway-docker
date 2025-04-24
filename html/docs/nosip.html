@@ -152,7 +152,7 @@ NoSIP Plugin API</h1>
         "request" : "hangup"
 }
 </pre><p>An <code>hangingup</code> event will be sent back, as this is an asynchronous request.</p>
-<p>Finally, just as in the SIP and SIPre plugins, the multimedia session can be recorded. Considering the NoSIP plugin also assumes two peers are in a call with each other (although it makes no assumptions on the signalling that ties them together), it works exactly the same way as the SIP and SIPre plugin do when it comes to recording. Specifically, you make use of the <code>recording</code> request to either start or stop a recording, using the following syntax:</p>
+<p>Finally, just as in the SIP plugin, the multimedia session can be recorded. Considering the NoSIP plugin also assumes two peers are in a call with each other (although it makes no assumptions on the signalling that ties them together), it works exactly the same way as the SIP plugin dooes when it comes to recording. Specifically, you make use of the <code>recording</code> request to either start or stop a recording, using the following syntax:</p>
 <pre class="fragment">{
         "request" : "recording",
         "action" : "&lt;start|stop, depending on whether you want to start or stop recording something&gt;"
@@ -163,14 +163,21 @@ NoSIP Plugin API</h1>
         "filename" : "&lt;base path/filename to use for all the recordings&gt;"
 }
 </pre><p>As you can see, this means that the two sides of conversation are recorded separately, and so are the audio and video streams if available. You can choose which ones to record, in case you're interested in just a subset. The <code>filename</code> part is just a prefix, and dictates the actual filenames that will be used for the up-to-four recordings that may need to be enabled.</p>
-<p>A <code>recordingupdated</code> event is sent back in case the request is successful. </p>
+<p>A <code>recordingupdated</code> event is sent back in case the request is successful.</p>
+<p>To programmatically send a video keyframe request to either the WebRTC user or the SIP peer (or both), the <code>keyframe</code> request can be used. This request is particularly useful when the SIP peer doesn't support RTCP PLI, and so may use other mechanisms (e.g., via signalling) to ask for a keyframe to get video working. By using this request, the WebRTC user can ask Janus to originate a PLI programmatically. The direction of the keyframe request can be provided by using the <code>user</code> and <code>peer</code> properties: if <code>user</code> is <code>TRUE</code> a keyframe request will be sent by Janus to the WebRTC user; if <code>peer</code> is <code>TRUE</code> a keyframe request will be sent by Janus to the SIP peer. In both cases an RTCP PLI message will be sent. The syntax of the message is the following:</p>
+<pre class="fragment">{
+        "request" : "keyframe",
+        "user" : &lt;true|false; whether or not to send a keyframe request to the WebRTC user&gt;,
+        "peer" : &lt;true|false; whether or not to send a keyframe request to the SIP peer&gt;
+}
+</pre><p>A <code>keyframesent</code> event is sent back in case the request is successful. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 <!-- HTML footer for doxygen 1.8.18-->
 <!-- start footer part -->
 <div class="footer container">
 <hr class="footer"/>
-Last updated on Tue Jan 14 2025 &mdash; Janus WebRTC Server &copy; <a target="_blank" href="http://www.meetecho.com/">Meetecho</a> 2014-2024
+Last updated on Thu Apr 24 2025 &mdash; Janus WebRTC Server &copy; <a target="_blank" href="http://www.meetecho.com/">Meetecho</a> 2014-2025
 </div>
 </body>
 </html>

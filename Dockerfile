@@ -2,7 +2,6 @@ FROM ubuntu:24.04 AS builder
 
 RUN sed -E -i '~s#http://(archive|security).ubuntu.com/ubuntu/#http://192.168.50.40:8081/repository/ubuntu/#g; ~s#http://ports.ubuntu.com/ubuntu-ports/#http://192.168.50.40:8081/repository/ubuntu-ports/#g; ' /etc/apt/sources.list.d/ubuntu.sources
 
-
 RUN apt-get -y update && \
     apt-get install -y \
         libavutil-dev \
@@ -39,23 +38,33 @@ RUN apt-get -y update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-
-
-RUN cd /tmp && \
-    git clone https://gitlab.freedesktop.org/libnice/libnice && \
-    cd libnice && \
-    git checkout 0.1.22 && \
+RUN --mount=type=bind,target=/work,source=. \
+        if [ -d /work/libnice ]; then \
+          cp -r /work/libnice /tmp/libnice; \
+        else \
+          cd /tmp && \
+          git clone https://gitlab.freedesktop.org/libnice/libnice && \
+          cd libnice && git checkout 0.1.22; \
+        fi && \
+        cd /tmp/libnice && \
         meson --prefix=/usr build && ninja -C build && ninja -C build install
 
-RUN cd /tmp && \
-    git clone https://github.com/meetecho/janus-gateway.git && \
-    cd janus-gateway && \
-    sed -i -e '~s#https://janus.conf.meetecho.com/#/#g' docs/header.html && \
-    sh autogen.sh && \
-    ./configure --enable-post-processing --prefix=/usr/local --enable-docs --enable-mqtt --enable-plugin-lua && \
-    make -j$(nproc) && \
-    make install && \
-    make configs
+WORKDIR /tmp
+
+RUN --mount=type=bind,target=/work,source=. \
+        if [ -d /work/janus-gateway ]; then \
+          cp -r /work/janus-gateway /tmp/janus-gateway; \
+        else \
+          cd /tmp && \
+          git clone https://github.com/meetecho/janus-gateway.git; \
+        fi && \
+        cd /tmp/janus-gateway && \
+        sed -i -e '~s#https://janus.conf.meetecho.com/#/#g' docs/header.html && \
+        sh autogen.sh && \
+        ./configure --enable-post-processing --prefix=/usr/local --enable-docs --enable-mqtt --enable-plugin-lua && \
+        make -j$(nproc) && \
+        make install && \
+        make configs
 
 RUN mkdir /tmp/copy && \
     cp /usr/lib/$(gcc -print-multiarch)/libnice.so.10.14.0 /tmp/copy/ && \

@@ -223,6 +223,9 @@ Data Fields</h2></td></tr>
 <tr class="memitem:ae05f9cc232af120c130568e1c04ab8d0" id="r_ae05f9cc232af120c130568e1c04ab8d0"><td class="memItemLeft" align="right" valign="top">gint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjanus__ice__peerconnection.html#ae05f9cc232af120c130568e1c04ab8d0">abs_capture_time_ext_id</a></td></tr>
 <tr class="memdesc:ae05f9cc232af120c130568e1c04ab8d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Absolute Capture Time ext ID.  <br /></td></tr>
 <tr class="separator:ae05f9cc232af120c130568e1c04ab8d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81ee655a98c2583dd7310dc326942173" id="r_a81ee655a98c2583dd7310dc326942173"><td class="memItemLeft" align="right" valign="top">gint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjanus__ice__peerconnection.html#a81ee655a98c2583dd7310dc326942173">videolayers_ext_id</a></td></tr>
+<tr class="memdesc:a81ee655a98c2583dd7310dc326942173"><td class="mdescLeft">&#160;</td><td class="mdescRight">Video Layers Allocation ext ID.  <br /></td></tr>
+<tr class="separator:a81ee655a98c2583dd7310dc326942173"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab103d568a6431cf86a7f02c405bab264" id="r_ab103d568a6431cf86a7f02c405bab264"><td class="memItemLeft" align="right" valign="top">gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjanus__ice__peerconnection.html#ab103d568a6431cf86a7f02c405bab264">do_transport_wide_cc</a></td></tr>
 <tr class="memdesc:ab103d568a6431cf86a7f02c405bab264"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether we do transport wide cc.  <br /></td></tr>
 <tr class="separator:ab103d568a6431cf86a7f02c405bab264"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -294,6 +297,9 @@ Data Fields</h2></td></tr>
 <tr class="memitem:ac63f229ad4074524d2368d45faffc766" id="r_ac63f229ad4074524d2368d45faffc766"><td class="memItemLeft" align="right" valign="top">GHashTable *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjanus__ice__peerconnection.html#ac63f229ad4074524d2368d45faffc766">rtx_payload_types_rev</a></td></tr>
 <tr class="memdesc:ac63f229ad4074524d2368d45faffc766"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reverse mapping of rtx payload types to actual media-related packet types.  <br /></td></tr>
 <tr class="separator:ac63f229ad4074524d2368d45faffc766"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7906a0caa912d3c58805e6c2fb04eb8b" id="r_a7906a0caa912d3c58805e6c2fb04eb8b"><td class="memItemLeft" align="right" valign="top">GQueue *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjanus__ice__peerconnection.html#a7906a0caa912d3c58805e6c2fb04eb8b">nacks_queue</a></td></tr>
+<tr class="memdesc:a7906a0caa912d3c58805e6c2fb04eb8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper queue for storing requested packets from NACKs.  <br /></td></tr>
+<tr class="separator:a7906a0caa912d3c58805e6c2fb04eb8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a409098871e3931d44b4d5060f7d4909d" id="r_a409098871e3931d44b4d5060f7d4909d"><td class="memItemLeft" align="right" valign="top">gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjanus__ice__peerconnection.html#a409098871e3931d44b4d5060f7d4909d">noerrorlog</a></td></tr>
 <tr class="memdesc:a409098871e3931d44b4d5060f7d4909d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper flag to avoid flooding the console with the same error all over again.  <br /></td></tr>
 <tr class="separator:a409098871e3931d44b4d5060f7d4909d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -741,6 +747,22 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a id="a7906a0caa912d3c58805e6c2fb04eb8b" name="a7906a0caa912d3c58805e6c2fb04eb8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7906a0caa912d3c58805e6c2fb04eb8b">&#9670;&#160;</a></span>nacks_queue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GQueue* janus_ice_peerconnection::nacks_queue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Helper queue for storing requested packets from NACKs. </p>
+
+</div>
+</div>
 <a id="a409098871e3931d44b4d5060f7d4909d" name="a409098871e3931d44b4d5060f7d4909d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a409098871e3931d44b4d5060f7d4909d">&#9670;&#160;</a></span>noerrorlog</h2>
 
@@ -1139,6 +1161,22 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a id="a81ee655a98c2583dd7310dc326942173" name="a81ee655a98c2583dd7310dc326942173"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81ee655a98c2583dd7310dc326942173">&#9670;&#160;</a></span>videolayers_ext_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">gint janus_ice_peerconnection::videolayers_ext_id</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Video Layers Allocation ext ID. </p>
+
+</div>
+</div>
 <a id="aecc0d811275ba159c77e492042c5b4b1" name="aecc0d811275ba159c77e492042c5b4b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aecc0d811275ba159c77e492042c5b4b1">&#9670;&#160;</a></span>videoorientation_ext_id</h2>
 
@@ -1163,7 +1201,7 @@ Data Fields</h2></td></tr>
 <!-- start footer part -->
 <div class="footer container">
 <hr class="footer"/>
-Last updated on Tue Jan 14 2025 &mdash; Janus WebRTC Server &copy; <a target="_blank" href="http://www.meetecho.com/">Meetecho</a> 2014-2024
+Last updated on Thu Apr 24 2025 &mdash; Janus WebRTC Server &copy; <a target="_blank" href="http://www.meetecho.com/">Meetecho</a> 2014-2025
 </div>
 </body>
 </html>

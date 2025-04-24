@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 
-docker build --target builder -t rst/janus-builder .
-docker build -t rst/janus-gateway .
+DOCKER_BUILDKIT=1 docker build --target builder -t rst/janus-builder .
+DOCKER_BUILDKIT=1 docker build -t rst/janus-gateway .
 
 

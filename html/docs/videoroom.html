@@ -990,7 +990,7 @@ Remote publishers (room cascading)</h2>
         "remote_id" : "&lt;unique ID of this remotization (needed for unpublish_remotely)&gt;"
 }
 </pre><p>Notice that, as explained before, <code>publish_remotely</code> expects a remote publisher ready to receive their media, which is why <code>add_remote_publisher</code> must be sent on the target Janus instance first: the info returned by that request (IP and ports) are what you then feed to <code>publish_remotely</code> .</p>
-<p>The <code>publish_remotely</code> request can be used multiple times for the same local publisher, e.g., to make the same publisher available on more than one remote Janus/VideoRoom instance. This is why <code>remote_id</code> is needed to be able to individually address each specific remotization, in case you want to, e.g., stop making a specific publisher available on a specigic Janus instance, but keep it available on others.</p>
+<p>The <code>publish_remotely</code> request can be used multiple times for the same local publisher, e.g., to make the same publisher available on more than one remote Janus/VideoRoom instance. This is why <code>remote_id</code> is needed to be able to individually address each specific remotization, in case you want to, e.g., stop making a specific publisher available on a specific Janus instance, but keep it available on others.</p>
 <p>To disable a specific remotization of a local publisher, the <code>unpublish_remotely</code> request is used, which must be formatted as follows:</p>
 <pre class="fragment">{
         "request" : "unpublish_remotely",
@@ -1034,7 +1034,7 @@ Remote publishers (room cascading)</h2>
 <!-- start footer part -->
 <div class="footer container">
 <hr class="footer"/>
-Last updated on Tue Jan 14 2025 &mdash; Janus WebRTC Server &copy; <a target="_blank" href="http://www.meetecho.com/">Meetecho</a> 2014-2024
+Last updated on Thu Apr 24 2025 &mdash; Janus WebRTC Server &copy; <a target="_blank" href="http://www.meetecho.com/">Meetecho</a> 2014-2025
 </div>
 </body>
 </html>

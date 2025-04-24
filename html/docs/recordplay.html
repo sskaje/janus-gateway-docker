@@ -108,10 +108,16 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <div class="contents">
 <div class="textblock"><p>This is a simple application that implements two different features: it allows you to record a message you send with WebRTC in the format defined in recorded.c (MJR recording) and subsequently replay this recording (or other previously recorded) through WebRTC as well. For more information on how Janus implements recordings natively and the MJR format, refer to the <a class="el" href="recordings.html">Recordings</a> documentation.</p>
 <p>This application aims at showing how easy recording frames sent by a peer is, and how this recording can be re-used directly, without necessarily involving a post-processing process (e.g., through the tool we provide in <a class="el" href="janus-pp-rec_8c.html" title="Simple utility to post-process .mjr Recordings saved by Janus.">janus-pp-rec.c</a>). Notice that only audio and video can be recorded and replayed in this plugin: if you're interested in recording data channel messages (which Janus and the .mjr format do support), you should use a different plugin instead.</p>
-<p>The configuration process is quite easy: just choose where the recordings should be saved. The same folder will also be used to list the available recordings that can be replayed.</p>
+<p>The configuration process is relatively straightforward: in the simplest configuration, you just choose where the recordings should be saved. The same folder will also be used to list the available recordings that can be replayed.</p>
+<p>Notice that, by default, all recordings are public, which means any user connecting to the plugin and asking for a list of recordings will be able to obtain their IDs. Recordings can be marked as private to avoid that, meaning that users will only be able to consume such a recording if they're aware of its ID via out of band mechanisms. Marking a recording as private can be done in two different ways:</p>
+<ol type="1">
+<li>via the API, that is when the recording is created;</li>
+<li>by setting the <code>private</code> property to <code>true</code> in the plugin configuration file, which will automatically mark all new recordings as private by default unless otherwise specified in the API request.</li>
+</ol>
 <dl class="section note"><dt>Note</dt><dd>The application creates a special file in INI format with <code>.nfo</code> extension for each recording that is saved. This is necessary to map a specific audio .mjr file to a different video .mjr one, as they always get saved in different files. If you want to replay recordings you took in a different application (e.g., the streaming or videoroom plugins) just copy the related files in the folder you configured this plugin to use and create a .nfo file in the same folder to create a mapping, e.g.: <pre class="fragment">         [12345678]
          name = My videoroom recording
          date = 2014-10-14 17:11:26
+         private = false
          audio = videoroom-audio.mjr
          video = videoroom-video.mjr
 </pre> Data channel recordings are supported via a <code>data</code> attribute as well.</dd></dl>
@@ -122,7 +128,8 @@ Record&amp;Play API</h1>
 <p>The <code>record</code> , <code>play</code> , <code>start</code> and <code>stop</code> requests instead are all asynchronous, which means you'll get a notification about their success or failure in an event. <code>record</code> asks the plugin to start recording a session; <code>play</code> asks the plugin to prepare the playout of one of the previously recorded sessions; <code>start</code> starts the actual playout, and <code>stop</code> stops whatever the session was for, i.e., recording or replaying.</p>
 <p>The <code>list</code> request has to be formatted as follows:</p>
 <pre class="fragment">{
-        "request" : "list"
+        "request" : "list",
+        "admin_key" : "&lt;plugin administrator key; optional&gt;"
 }
 </pre><p>A successful request will result in an array of recordings:</p>
 <pre class="fragment">{
@@ -147,19 +154,23 @@ Record&amp;Play API</h1>
         "error_code" : &lt;numeric ID, check Macros below&gt;,
         "error" : "&lt;error description as a string&gt;"
 }
-</pre><p>The <code>update</code> request instead has to be formatted as follows:</p>
+</pre><p>Notice that, as explained previously, the <code>list</code> request will only return the list of all recordings who were <b>not</b> marked as private. To return the list of private recordings as well, the right <code>admin_key</code> must be provided as well. In case no <code>admin_key</code> was configured, then the list of private recordings will never be returned.</p>
+<p>The <code>update</code> request instead has to be formatted as follows:</p>
 <pre class="fragment">{
-        "request" : "update"
+        "request" : "update",
+        "admin_key" : "&lt;plugin administrator key; mandatory, if configured&gt;"
 }
 </pre><p>which will always result in an immediate ack ( <code>ok</code> ):</p>
 <pre class="fragment">{
         "recordplay" : "ok",
 }
-</pre><p>Coming to the asynchronous requests, <code>record</code> has to be attached to a JSEP offer (failure to do so will result in an error) and has to be formatted as follows:</p>
+</pre><p>Notice that, if an <code>admin_key</code> was configured in the configuration file, it is a mandatory property to pass in an <code>update</code> request as well.</p>
+<p>Coming to the asynchronous requests, <code>record</code> has to be attached to a JSEP offer (failure to do so will result in an error) and has to be formatted as follows:</p>
 <pre class="fragment">{
         "request" : "record",
         "id" : &lt;unique numeric ID for the recording; optional, will be chosen by the server if missing&gt;
         "name" : "&lt;Pretty name for the recording&gt;",
+        "is_private" : &lt;true|false, whether the recording should be listable; the default is what was configured in the plugin config file&gt;,
         "filename" : "&lt;Base path/name for the file (media type and extension added by the plugin); optional&gt;",
         "audiocodec" : "&lt;name of the audio codec we prefer for the recording; optional&gt;",
         "videocodec" : "&lt;name of the video codec we prefer for the recording; optional&gt;",
@@ -172,7 +183,8 @@ Record&amp;Play API</h1>
         "recordplay" : "event",
         "result": {
                 "status" : "recording",
-                "id" : &lt;unique numeric ID&gt;
+                "id" : &lt;unique numeric ID&gt;,
+                "is_private" : &lt;true|false, same as the request&gt;
         }
 }
 </pre><p>A <code>stop</code> request can interrupt the recording process and tear the associated PeerConnection down:</p>
@@ -184,10 +196,11 @@ Record&amp;Play API</h1>
         "recordplay" : "event",
         "result": {
                 "status" : "stopped",
-                "id" : &lt;unique numeric ID of the interrupted recording&gt;
+                "id" : &lt;unique numeric ID of the interrupted recording&gt;,
+                "is_private" : &lt;whether the interrupted recording is private&gt;
         }
 }
-</pre><p>For what concerns the playout, instead, the process is slightly different: you first choose a recording to replay, using <code>play</code> , and then start its playout using a <code>start</code> request. Just as before, a <code>stop</code> request will interrupt the playout and tear the PeerConnection down. It's very important to point out that no JSEP offer must be sent for replaying a recording: in this case, it will always be the plugin to generate a JSON offer (in response to a <code>play</code> request), which means you'll then have to provide a JSEP answer within the context of the following <code>start</code> request which will close the circle.</p>
+</pre><p>For what concerns the playout, instead, the process is slightly different: you first choose a recording to replay, using <code>play</code> , and then start its playout using a <code>start</code> request. Just as before, a <code>stop</code> request will interrupt the playout and tear the PeerConnection down. It's very important to point out that no JSEP offer must be sent for replaying a recording: in this case, it will always be the plugin to generate a JSON offer (in response to a <code>play</code> request), which means you'll then have to provide a JSEP answer within the context of the following <code>start</code> request which will close the circle. Notice that <code>play</code> can be used to replay private recordings as well: a recording marked as private is simply not returned when retrieving the list of available recordings, but if the user is aware of a recording ID through other means, then that recording can be replayed as all other non-private recordings.</p>
 <p>A <code>play</code> request has to be formatted as follows:</p>
 <pre class="fragment">{
         "request" : "play",
@@ -223,10 +236,14 @@ Record&amp;Play API</h1>
                 "status" : "stopped"
         }
 }
-</pre><p>If the plugin detects a loss of the associated PeerConnection, whether as a result of a <code>stop</code> request or because the 10 seconds passed, a <code>done</code> result notification is triggered to inform the application the recording/playout session is over:</p>
+</pre><p>If the plugin detects a loss of the associated PeerConnection, whether as a result of a <code>stop</code> request or because the connection was closed, a <code>done</code> result notification is triggered to inform the application the recording/playout session is over:</p>
 <pre class="fragment">{
         "recordplay" : "event",
-        "result": "done"
+        "result": {
+                "status" : "done",
+                "id" : &lt;unique numeric ID of the completed recording&gt;,
+                "is_private" : &lt;whether the completed recording is private&gt;
+        }
 }
 </pre> </div></div><!-- contents -->
 </div><!-- PageDoc -->
@@ -234,7 +251,7 @@ Record&amp;Play API</h1>
 <!-- start footer part -->
 <div class="footer container">
 <hr class="footer"/>
-Last updated on Tue Jan 14 2025 &mdash; Janus WebRTC Server &copy; <a target="_blank" href="http://www.meetecho.com/">Meetecho</a> 2014-2024
+Last updated on Thu Apr 24 2025 &mdash; Janus WebRTC Server &copy; <a target="_blank" href="http://www.meetecho.com/">Meetecho</a> 2014-2025
 </div>
 </body>
 </html>

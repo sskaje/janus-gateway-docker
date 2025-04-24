@@ -12,3 +12,4 @@
 *.exe
 .*.swp
 .idea
+janus-gateway/
